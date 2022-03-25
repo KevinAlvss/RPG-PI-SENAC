@@ -66,4 +66,5 @@ public class initGame {
     private static void MensagemPadraoNaoReconhecido() {
         System.out.println("\nHmm... me parece que isso não existe\n");
     }
+    // aoba bom dia aaaaaaaaaaa
 }
