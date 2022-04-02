@@ -16,7 +16,7 @@ public class initGame {
 
     private static void Menu() {
 
-        System.out.print("1 - Jogar\n2 - Créditos\n3 - Sair\n");
+        System.out.print("1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
 
         String opcao = sc.next();
 
@@ -27,10 +27,13 @@ public class initGame {
                 Menu();
                 break;
             case "2":
+                Instrucoes();
+                Menu();
+            case "3":
                 Creditos();
                 Menu();
                 break;
-            case "3":
+            case "4":
                 SairDoJogo();
                 break;
             default:
@@ -49,6 +52,10 @@ public class initGame {
 
         System.out.print("Hmm... " + jogador.nome
                 + "... esse nome me parece familiar... mas mesmo assim vamos começar nosso jogo\n");
+    }
+
+    private static void Instrucoes() {
+        System.out.print("Instruções que o affonso vai fazer");
     }
 
     private static void Creditos() {
