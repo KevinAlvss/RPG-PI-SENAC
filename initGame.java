@@ -55,7 +55,9 @@ public class initGame {
     }
 
     private static void Instrucoes() {
-        System.out.print("Instruções que o affonso vai fazer");
+        System.out.println("O jogo se passa na época de 1939, durante a 2ª guerra mundial, onde você terá que ajudar Alan Turing a resolver o Enigma. \n"
+        + "Uma máquina que foi desenvolvida para criptografar coordenadas e assim, efetuar ataques sem que ninguém saiba onde irão acontecer. \n"
+        + "Você terá escolhas a fazer e dependendo delas, isso influenciará no futuro da guerra.\n");
     }
 
     private static void Creditos() {
