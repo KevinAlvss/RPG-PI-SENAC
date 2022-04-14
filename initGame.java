@@ -1,9 +1,8 @@
 import java.util.Scanner;
-
+import cenas.*;
 public class initGame {
 
     static Scanner sc = new Scanner(System.in);
-
     public static class Jogador {
         public String nome;
     };
@@ -16,7 +15,7 @@ public class initGame {
 
     private static void Menu() {
 
-        System.out.print("1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
+        System.out.print("\n1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
 
         String opcao = sc.next();
 
@@ -46,30 +45,24 @@ public class initGame {
     }
 
     private static void IniciarJogo() {
-        System.out.print("Olá jovem gafanhoto! Diga-me o seu nome:\nSeu nome:");
-
-        String nomeDoJogador = sc.next();
-        jogador.nome = nomeDoJogador;
-
-        System.out.print("Hmm... " + jogador.nome
-                + "... esse nome me parece familiar... mas mesmo assim vamos começar nosso jogo\n");
+        CenaUm.init();
     }
 
     private static void Instrucoes() {
-        System.out.println("O jogo se passa na época de 1939, durante a 2ª guerra mundial, onde você terá que ajudar Alan Turing a resolver o Enigma. \n"
+        System.out.println("\nO jogo se passa na época de 1939, durante a 2ª guerra mundial, onde você terá que ajudar Alan Turing a resolver o Enigma. \n"
         + "Uma máquina que foi desenvolvida para criptografar coordenadas e assim, efetuar ataques sem que ninguém saiba onde irão acontecer. \n"
         + "Você terá escolhas a fazer e dependendo delas, isso influenciará no futuro da guerra.\n");
     }
 
     private static void Creditos() {
-        System.out.print("Kevin\nAffonso\nRaian\nNathalia\nVyviane\n");
+        System.out.print("\nKevin\nAffonso\nRaian\nNathalia\nVyviane\n");
     }
 
     private static void SairDoJogo() {
-        System.out.print("Foi um prazer jogar com vc...\n");
+        System.out.print("\nFoi um prazer jogar com vc...\n");
     }
 
     private static void MensagemPadraoNaoReconhecido() {
-        System.out.print("Hmm... me parece que isso não existe\n");
+        System.out.print("\nHmm... me parece que isso não existe\n");
     }
 }
