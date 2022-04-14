@@ -29,6 +29,7 @@ public class initGame {
             case "2":
                 Instrucoes();
                 Menu();
+                break;
             case "3":
                 Creditos();
                 Menu();
