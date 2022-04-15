@@ -15,7 +15,7 @@ public class initGame {
 
     private static void Menu() {
 
-        System.out.print("\n1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
+        System.out.println("\n1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
 
         String opcao = sc.next();
 
@@ -55,14 +55,15 @@ public class initGame {
     }
 
     private static void Creditos() {
-        System.out.print("\nKevin\nAffonso\nRaian\nNathalia\nVyviane\n");
+        System.out.println("\nCréditos\n");
+        System.out.println("Kevin\nAffonso\nRaian\nNathalia\nVyviane\n");
     }
 
     private static void SairDoJogo() {
-        System.out.print("\nFoi um prazer jogar com vc...\n");
+        System.out.println("\nFoi um prazer jogar com vc...\n");
     }
 
     private static void MensagemPadraoNaoReconhecido() {
-        System.out.print("\nHmm... me parece que isso não existe\n");
+        System.out.println("\nHmm... me parece que isso não existe\n");
     }
 }
