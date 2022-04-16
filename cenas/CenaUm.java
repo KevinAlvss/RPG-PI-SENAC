@@ -100,4 +100,18 @@ public class CenaUm {
         System.out.println(
                 "\nDe repente um outro policial sai de dentro da casa visivelmente irritado dizendo para o seu companheiro: 'Vamos embora, não tem nada aqui, isso foi uma viagem perdida'\n");
     }
+
+    public static void reticencias(int qntPontinhos){
+
+        try {
+            for(int i = 0; i< qntPontinhos;i++){
+                Thread.sleep(700); 
+                System.out.print(".");
+                Thread.sleep(700); 
+            } 
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+    }
 }
