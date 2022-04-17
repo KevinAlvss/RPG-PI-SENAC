@@ -1,4 +1,4 @@
-package cenas;
+package Cenas;
 
 import java.util.Scanner;
 

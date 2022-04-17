@@ -1,5 +1,5 @@
 package Client;
-import cenas.*;
+import Cenas.*;
 
 public class Opcoes {
 
