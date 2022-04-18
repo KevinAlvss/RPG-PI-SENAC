@@ -6,7 +6,7 @@ import Utils.Utils;
 public class Opcoes {
 
     public static void iniciarJogo() {
-        CenaUm.init();
+        Cena_1.init();
     }
 
     public static void instrucoes() {
