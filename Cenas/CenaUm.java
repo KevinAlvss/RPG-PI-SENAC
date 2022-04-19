@@ -3,11 +3,11 @@ package Cenas;
 import java.util.Properties;
 import java.util.Scanner;
 import Utils.Utils;
+import Client.Jogador;
 
 public class CenaUm{
 
     static Scanner sc = new Scanner(System.in);
-    public static String nomeJogador;
 
     public static void initCenaUm() {
         Utils.escrever("\nEu sou apenas um jovem e o mundo já está em guerra, e não é uma guerra qualquer, é a segunda guerra mundial, todos os meus amigos foram para o campo de batalha, e eu aqui continuo trabalhando como matemático, sinto que a cada dia eu deixo de contribuir para o meu país, talvez eu tenha nascido na época errada, mas eu sei que através dos meus conhecimentos e  posso vencer essa guerra.... e essa é a minha história\n");
@@ -21,6 +21,7 @@ public class CenaUm{
 
         while (!saiu) {
 
+            // da para colocar um 3 opção  ignorar e ir emborar para casa
             System.out.println("\n1 - Passo direto pelos policiais\n2 - Pergunto oq está acontecendo\n");
 
             String decisao = sc.next();
@@ -54,6 +55,7 @@ public class CenaUm{
         boolean saiu = false;
 
         while (!saiu) {
+            // da para colocar um 3 opção  ignorar e ir emborar para casa
             System.out.println("\n1 - Digo que o alan é meu amigo\n2 - Pergunto o que está acontecendo\n");
 
             String decisao = sc.next();
@@ -152,7 +154,7 @@ public class CenaUm{
     public static void AlanResponde(){
         boolean saiu = false;
        
-        Utils.escrever("Ele levanta a cabeça e me diz: 'Já que está aí, pega essa vassoura que está do seu lado'");
+        Utils.escrever("Ele levanta a cabeça e me diz: 'Já que está aí, pega essa vassoura que está do seu lado?'");
         while(!saiu){
             Utils.escrever("\n1 - Pego a vassoura\n2 - Não pego a vassoura\n");
             String decisao = sc.next();
@@ -163,7 +165,7 @@ public class CenaUm{
                         saiu = true;  
                     break;
                 case "2":
-                        Utils.escrever("O alan me diz: “ok, já que não está para ajudar, vá embora”");
+                        Utils.escrever("O alan me diz:'ok, já que não está para ajudar, vá embora'");
                         irParaCasa();
                         saiu = true;
                     break;
@@ -176,7 +178,7 @@ public class CenaUm{
 
     public static void pegoAVassoura(){
         boolean saiu = false;
-        Utils.escrever("Eu pego a vassoura, levo até ele, e chegando lá ele me diz: “Você me parece familiar,eu te conheço de algum lugar?”");
+        Utils.escrever("Eu pego a vassoura, levo até ele, e chegando lá ele me diz: 'Você me parece familiar,eu te conheço de algum lugar?'");
         while(!saiu){
             Utils.escrever("\n1 - Digo que sim \n2 - Digo que não\n");
             String decisao = sc.next();
@@ -184,14 +186,12 @@ public class CenaUm{
         
             switch (decisao) {
                 case "1":
-                        Utils.escrever("\nSim ! eu sou primo de um velho amigo seu, o Christopher\nO Alan me disse: ”Ah... sim... por isso te achei familiar..., seu nome é ...”\n");
-                        nomeJogador = sc.nextLine();
+                        Utils.escrever("\nSim! eu sou primo de um velho amigo seu, o Christopher\nO Alan me disse: 'Ah... sim... por isso te achei familiar..., seu nome é ...'\n");
                         agradecimentoAlan();                       
                         saiu = true;
                     break;
                 case "2":
-                        Utils.escrever("O alan me diz: “ah... então me diga qual seu nome'");
-                        nomeJogador = sc.nextLine();
+                        Utils.escrever("O alan me diz: 'ah... então me diga qual seu nome'");
                         agradecimentoAlan();
                         saiu = true;
                     break;
@@ -203,18 +203,18 @@ public class CenaUm{
     }
 
     public static void agradecimentoAlan(){
+        Jogador.DefinirNomeJogador();
         
-        Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?'\n");
-        Utils.escrever("Bom "+ nomeJogador +" muito obrigado por aquilo e muito obrigado pela vassoura.\n");
-        Utils.escrever("Após isso fui embora para casa seguir minha rotina");
+        Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?\n");
+        Utils.escrever("Bom "+ Jogador.GetNomeJogador() +" muito obrigado por aquilo e muito obrigado pela vassoura.'\n");        
         irParaCasa();   
 
     }
 
     public static void irParaCasa(){
         try {
-            Utils.escrever("\nE então vou para casa\n");
-            Thread.sleep(1000);
+            Utils.escrever("\nApós isso fui embora para casa seguir minha rotina");
+            Thread.sleep(2000);
             CenaDois.initCenaDois();
         } catch (Exception e) {
                 System.out.println(e);
