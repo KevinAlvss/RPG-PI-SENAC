@@ -95,6 +95,7 @@ public class CenaUm{
     }
 
     public static void explicarAoPolicialSuaRelacaoComAlan() {
+
         Utils.escrever("\nEntão senhor policial o Alan é meu...\n");
         Utils.escrever("\nDe repente um outro policial sai de dentro da casa visivelmente irritado dizendo para o seu companheiro: 'Vamos embora, não tem nada aqui, isso foi uma viagem perdida'\n");
         interacaoComAlan();
@@ -184,11 +185,13 @@ public class CenaUm{
             switch (decisao) {
                 case "1":
                         Utils.escrever("\nSim ! eu sou primo de um velho amigo seu, o Christopher\nO Alan me disse: ”Ah... sim... por isso te achei familiar..., seu nome é ...”\n");
-                        agradecimentoAlan();
+                        nomeJogador = sc.nextLine();
+                        agradecimentoAlan();                       
                         saiu = true;
                     break;
                 case "2":
                         Utils.escrever("O alan me diz: “ah... então me diga qual seu nome'");
+                        nomeJogador = sc.nextLine();
                         agradecimentoAlan();
                         saiu = true;
                     break;
@@ -200,13 +203,11 @@ public class CenaUm{
     }
 
     public static void agradecimentoAlan(){
-
-        nomeJogador = sc.nextLine();
-
+        
         Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?'\n");
         Utils.escrever("Bom "+ nomeJogador +" muito obrigado por aquilo e muito obrigado pela vassoura.\n");
         Utils.escrever("Após isso fui embora para casa seguir minha rotina");
-        irParaCasa();
+        irParaCasa();   
 
     }
 
