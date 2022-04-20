@@ -1,5 +1,7 @@
 package Utils;
 
+import Client.*;
+
 public class Utils {
     public static void reticencias(int qntPontinhos) {
         try {
@@ -17,7 +19,7 @@ public class Utils {
     public static void escrever(String conteudo) {
         try {
             for (int i = 0; i < conteudo.length(); i++) {
-                Thread.sleep(45);
+                Thread.sleep(Configuracoes.GetVelocidadeDeTexto());
                 System.out.print(conteudo.charAt(i));
             }
         } catch (Exception e) {

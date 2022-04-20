@@ -9,7 +9,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
 
         while (!saiu) {
-            System.out.println("\n1 - Jogar\n2 - Instruções\n3 - Créditos\n4 - Sair\n");
+            System.out.println("\n1 - Jogar\n2 - Instruções\n3 - Configurações \n4 - Créditos\n5 - Sair\n");
 
             String opcao = sc.next();
 
@@ -22,9 +22,12 @@ public class Menu {
                     Opcoes.instrucoes();
                     break;
                 case "3":
-                    Opcoes.creditos();
+                    Opcoes.configuracoes();
                     break;
                 case "4":
+                    Opcoes.creditos();
+                    break;
+                case "5":
                     Opcoes.sairDoJogo();
                     saiu = true;
                     break;
@@ -33,6 +36,8 @@ public class Menu {
                     break;
             }
         }
+
+
 
         sc.close();
     }
