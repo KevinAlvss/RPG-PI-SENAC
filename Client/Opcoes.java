@@ -2,8 +2,14 @@ package Client;
 
 import Cenas.*;
 import Utils.Utils;
+import java.util.Scanner;
+
+
 
 public class Opcoes {
+
+    static Scanner sc = new Scanner(System.in);
+
 
     public static void iniciarJogo() {
         CenaUm.initCenaUm();
@@ -17,15 +23,40 @@ public class Opcoes {
     }
 
     public static void creditos() {
-        System.out.println("\nCréditos\n");
-        System.out.println("Kevin\nAffonso\nRaian\nNathalia\nVyviane\n");
+         Utils.escrever("\nCréditos\n");
+        Utils.escrever("Kevin");
+        Utils.escrever("\nAffonso");
+        Utils.escrever("\nRaian");
+        Utils.escrever("\nNathalia");
+        Utils.escrever("\nVyviane\n");
     }
 
     public static void sairDoJogo() {
-        System.out.println("\nFoi um prazer jogar com vc...\n");
+        Utils.escrever("\nFoi um prazer jogar com vc...\n");
     }
 
     public static void mensagemPadraoNaoReconhecido() {
-        System.out.println("\nHmm... me parece que isso não existe\n");
+        Utils.escrever("\nHmm... me parece que isso não existe\n");
+    }
+
+    public static void configuracoes(){
+        boolean saiu = false;
+
+        while(!saiu){ 
+            Utils.escrever("\n1 - Velocidade de texto\n");
+            String decisao = sc.next();    
+
+            switch(decisao){
+                case "1":
+                    Configuracoes.definirVelociade();
+                    saiu = true;
+                    break;
+                default:
+                    break;
+            } 
+
+          
+        }
+
     }
 }
