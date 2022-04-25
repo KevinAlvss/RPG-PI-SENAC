@@ -13,6 +13,7 @@ public class Jogador {
     }
 
     public static void DefinirNomeJogador(){
+        System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
         nomeJogador = nome;
 
