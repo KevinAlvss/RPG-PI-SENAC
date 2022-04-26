@@ -5,16 +5,14 @@ import Utils.Utils;
 
 public class CenaDois {
 
+    static Scanner sc = new Scanner(System.in);
+
     public static void initCenaDois() {
         System.out.println("\nUma semana depois...\n");
         Utils.escrever(
                 "\nApós mais um dia de trabalho eu decido ir dormir... zzz... zzz... zzz... E percebo que estou sonhando com o dia em que conheci o Alan. Eu estava sentado no refeitório da escola junto com o meu primo Christopher e vejo um garoto separando os alimentos por cores... O Christopher então, decide ir ao patio, quando de repente 5 garotos jogam o prato de comida de Alan para cima e começam a zombar com ele.\n");
         Utils.escrever(
                 "\nAlan decide sair correndo para se livrar dos agressores\n");
-        comoConheciOAlan();
-    }
-
-    public static void comoConheciOAlan() {
 
         boolean saiu = false;
 
@@ -22,13 +20,11 @@ public class CenaDois {
 
             System.out.println("\n1 - Corro atrás dos agressores para ajudar Alan\n2 - Não faço nada\n");
 
-            Scanner sc = new Scanner(System.in);
-
             String decisao = sc.next();
 
             switch (decisao) {
                 case "1":
-                    corroAtrasDosAgressoresParaAjudarAlan();
+                    corroAtrasDosAgressores();
                     saiu = true;
                     break;
                 case "2":
@@ -41,7 +37,7 @@ public class CenaDois {
         }
     }
 
-    public static void corroAtrasDosAgressoresParaAjudarAlan() {
+    public static void corroAtrasDosAgressores() {
         Utils.escrever(
                 "\nEu persigo eles até pararem em uma sala e começarem a bater nele\n");
         chamarChristopher();
@@ -54,9 +50,6 @@ public class CenaDois {
     }
 
     public static void chamarChristopher() {
-
-        Scanner sc = new Scanner(System.in);
-
         System.out.println("\n1 - Chamar Christopher.\n");
 
         String decisao = sc.next();
