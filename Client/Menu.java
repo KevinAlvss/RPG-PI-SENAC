@@ -37,8 +37,6 @@ public class Menu {
             }
         }
 
-
-
         sc.close();
     }
 

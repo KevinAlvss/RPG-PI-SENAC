@@ -4,12 +4,9 @@ import Cenas.*;
 import Utils.Utils;
 import java.util.Scanner;
 
-
-
 public class Opcoes {
 
     static Scanner sc = new Scanner(System.in);
-
 
     public static void iniciarJogo() {
         CenaUm.initCenaUm();
@@ -23,7 +20,7 @@ public class Opcoes {
     }
 
     public static void creditos() {
-         Utils.escrever("\nCréditos\n");
+        Utils.escrever("\nCréditos\n");
         Utils.escrever("Kevin");
         Utils.escrever("\nAffonso");
         Utils.escrever("\nRaian");
@@ -39,23 +36,22 @@ public class Opcoes {
         Utils.escrever("\nHmm... me parece que isso não existe\n");
     }
 
-    public static void configuracoes(){
+    public static void configuracoes() {
         boolean saiu = false;
 
-        while(!saiu){ 
+        while (!saiu) {
             Utils.escrever("\n1 - Velocidade de texto\n");
-            String decisao = sc.next();    
+            String decisao = sc.next();
 
-            switch(decisao){
+            switch (decisao) {
                 case "1":
                     Configuracoes.definirVelociade();
                     saiu = true;
                     break;
                 default:
                     break;
-            } 
+            }
 
-          
         }
 
     }
