@@ -63,5 +63,8 @@ public class CenaDois {
             default:
                 break;
         }
+
+        CenaTres.initCenaTres();
+
     }
 }
