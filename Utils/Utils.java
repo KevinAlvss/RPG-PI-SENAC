@@ -18,10 +18,12 @@ public class Utils {
 
     public static void escrever(String conteudo) {
         try {
+            System.out.print("\n");
             for (int i = 0; i < conteudo.length(); i++) {
                 Thread.sleep(Configuracoes.GetVelocidadeDeTexto());
                 System.out.print(conteudo.charAt(i));
             }
+            System.out.print("\n");
         } catch (Exception e) {
             System.out.println(e);
         }

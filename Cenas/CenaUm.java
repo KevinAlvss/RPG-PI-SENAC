@@ -10,9 +10,9 @@ public class CenaUm {
 
     public static void initCenaUm() {
         Utils.escrever(
-                "\nEu sou apenas um jovem e o mundo já está em guerra, e não é uma guerra qualquer, é a segunda guerra mundial, todos os meus amigos foram para o campo de batalha, e eu aqui continuo trabalhando como matemático, sinto que a cada dia eu deixo de contribuir para o meu país, talvez eu tenha nascido na época errada, mas eu sei que através dos meus conhecimentos eu posso vencer essa guerra.... e essa é a minha história\n");
+                "Eu sou apenas um jovem e o mundo já está em guerra, e não é uma guerra qualquer, é a segunda guerra mundial, todos os meus amigos foram para o campo de batalha, e eu aqui continuo trabalhando como matemático, sinto que a cada dia eu deixo de contribuir para o meu país, talvez eu tenha nascido na época errada, mas eu sei que através dos meus conhecimentos eu posso vencer essa guerra.... e essa é a minha história");
         Utils.escrever(
-                "\nEu estou voltando para casa da padaria, de repente vejo policiais na frente da casa de um conhecido meu chamado Alan Turing, e vou lá ver\n");
+                "Eu estou voltando para casa da padaria, de repente vejo policiais na frente da casa de um conhecido meu chamado Alan Turing, e vou lá ver");
         decisaoPoliciais();
     }
 
@@ -43,12 +43,12 @@ public class CenaUm {
     }
 
     public static void passarDiretoPelosPoliciais() {
-        Utils.escrever("\nUm policial bateu no meu peito e me disse: 'EI JOVEM, ESSA AREA É RESTRITA'\n");
+        Utils.escrever("Um policial bateu no meu peito e me disse: 'EI JOVEM, ESSA AREA É RESTRITA'");
         decisaoPoliciaisDois();
     }
 
     public static void perguntarOqueEstaAcontecendo() {
-        Utils.escrever("\nO policial me pergunta: 'Porque eu deveria te contar??'\n");
+        Utils.escrever("O policial me pergunta: 'Porque eu deveria te contar??'");
         decidirSuaRelacaoComAlan();
     }
 
@@ -100,18 +100,18 @@ public class CenaUm {
 
     public static void explicarAoPolicialSuaRelacaoComAlan() {
 
-        Utils.escrever("\nEntão senhor policial o Alan é meu...\n");
+        Utils.escrever("Então senhor policial o Alan é meu...");
         Utils.escrever(
-                "\nDe repente um outro policial sai de dentro da casa visivelmente irritado dizendo para o seu companheiro: 'Vamos embora, não tem nada aqui, isso foi uma viagem perdida'\n");
+                "De repente um outro policial sai de dentro da casa visivelmente irritado dizendo para o seu companheiro: 'Vamos embora, não tem nada aqui, isso foi uma viagem perdida'");
         interacaoComAlan();
     }
 
     public static void interacaoComAlan() {
         boolean saiu = false;
 
-        Utils.escrever("\nEnquanto os policiais estão indo embora vejo o Alan através de uma janela\n");
+        Utils.escrever("Enquanto os policiais estão indo embora vejo o Alan através de uma janela");
         while (!saiu) {
-            Utils.escrever("\n1 - Ignoro ele, e vou para casa\n2 - Levanto a voz e pergunto oq aconteceu\n");
+            System.out.println("\n1 - Ignoro ele, e vou para casa\n2 - Levanto a voz e pergunto oq aconteceu\n");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -133,10 +133,10 @@ public class CenaUm {
     public static void alanIgnora() {
         boolean saiu = false;
 
-        Utils.escrever("\nPercebo que ele me ignora\n");
+        Utils.escrever("Percebo que ele me ignora");
 
         while (!saiu) {
-            Utils.escrever("\n1 - Ignoro ele, e vou para casa\n2 - Tento novamente\n");
+            System.out.println("\n1 - Ignoro ele, e vou para casa\n2 - Tento novamente\n");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -159,7 +159,7 @@ public class CenaUm {
 
         Utils.escrever("Ele levanta a cabeça e me diz: 'Já que está aí, pega essa vassoura que está do seu lado?'");
         while (!saiu) {
-            Utils.escrever("\n1 - Pego a vassoura\n2 - Não pego a vassoura\n");
+            System.out.println("\n1 - Pego a vassoura\n2 - Não pego a vassoura\n");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -184,13 +184,13 @@ public class CenaUm {
         Utils.escrever(
                 "Eu pego a vassoura, levo até ele, e chegando lá ele me diz: 'Você me parece familiar,eu te conheço de algum lugar?'");
         while (!saiu) {
-            Utils.escrever("\n1 - Digo que sim \n2 - Digo que não\n");
+            System.out.println("\n1 - Digo que sim \n2 - Digo que não\n");
             String decisao = sc.next();
 
             switch (decisao) {
                 case "1":
                     Utils.escrever(
-                            "\nSim! eu sou primo de um velho amigo seu, o Christopher\nO Alan me disse: 'Ah... sim... por isso te achei familiar..., seu nome é ...'\n");
+                            "Sim! eu sou primo de um velho amigo seu, o Christopher\nO Alan me disse: 'Ah... sim... por isso te achei familiar..., seu nome é ...'");
                     agradecimentoAlan();
                     saiu = true;
                     break;
@@ -218,7 +218,7 @@ public class CenaUm {
 
     public static void irParaCasa() {
         try {
-            Utils.escrever("\nApós isso fui embora para casa seguir minha rotina");
+            Utils.escrever("Após isso fui embora para casa seguir minha rotina");
             Thread.sleep(2000);
             CenaDois.initCenaDois();
         } catch (Exception e) {
