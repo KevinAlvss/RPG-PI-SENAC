@@ -8,7 +8,7 @@ public class CenaDois {
     static Scanner sc = new Scanner(System.in);
 
     public static void initCenaDois() {
-        System.out.println("\nUma semana depois...\n");
+        Utils.escrever("Uma semana depois...");
         Utils.escrever(
                 "Após mais um dia de trabalho eu decido ir dormir... zzz... zzz... zzz... E percebo que estou sonhando com o dia em que conheci o Alan. Eu estava sentado no refeitório da escola junto com o meu primo Christopher e vejo um garoto separando os alimentos por cores... O Christopher então, decide ir ao patio, quando de repente 5 garotos jogam o prato de comida de Alan para cima e começam a zombar com ele.");
         Utils.escrever(
@@ -18,7 +18,7 @@ public class CenaDois {
 
         while (!saiu) {
 
-            System.out.println("\n1 - Corro atrás dos agressores para ajudar Alan\n2 - Não faço nada\n");
+            Utils.escrever("1 - Corro atrás dos agressores para ajudar Alan\n2 - Não faço nada");
 
             String decisao = sc.next();
 
@@ -50,7 +50,7 @@ public class CenaDois {
     }
 
     public static void chamarChristopher() {
-        System.out.println("\n1 - Chamar Christopher.\n");
+        Utils.escrever("1 - Chamar Christopher.");
 
         String decisao = sc.next();
 

@@ -23,7 +23,7 @@ public class CenaUm {
         while (!saiu) {
 
             // da para colocar um 3 opção ignorar e ir emborar para casa
-            System.out.println("\n1 - Passo direto pelos policiais\n2 - Pergunto oq está acontecendo\n");
+            Utils.escrever("1 - Passo direto pelos policiais\n2 - Pergunto oq está acontecendo");
 
             String decisao = sc.next();
 
@@ -57,7 +57,7 @@ public class CenaUm {
 
         while (!saiu) {
             // da para colocar um 3 opção ignorar e ir emborar para casa
-            System.out.println("\n1 - Digo que o alan é meu amigo\n2 - Pergunto o que está acontecendo\n");
+            Utils.escrever("1 - Digo que o alan é meu amigo\n2 - Pergunto o que está acontecendo");
 
             String decisao = sc.next();
 
@@ -81,7 +81,7 @@ public class CenaUm {
 
         while (!saiu) {
             System.out.println(
-                    "\n1 - Digo que o alan é meu amigo\n2 - Digo que o alan é meu irmão\n3 - Digo que o alan é meu primo\n4 - Digo que moro aqui perto e estou curioso\n");
+                    "\n1 - Digo que o alan é meu amigo\n2 - Digo que o alan é meu irmão\n3 - Digo que o alan é meu primo\n4 - Digo que moro aqui perto e estou curioso");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -111,7 +111,7 @@ public class CenaUm {
 
         Utils.escrever("Enquanto os policiais estão indo embora vejo o Alan através de uma janela");
         while (!saiu) {
-            System.out.println("\n1 - Ignoro ele, e vou para casa\n2 - Levanto a voz e pergunto oq aconteceu\n");
+            Utils.escrever("1 - Ignoro ele, e vou para casa\n2 - Levanto a voz e pergunto oq aconteceu");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -136,7 +136,7 @@ public class CenaUm {
         Utils.escrever("Percebo que ele me ignora");
 
         while (!saiu) {
-            System.out.println("\n1 - Ignoro ele, e vou para casa\n2 - Tento novamente\n");
+            Utils.escrever("1 - Ignoro ele, e vou para casa\n2 - Tento novamente");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -159,7 +159,7 @@ public class CenaUm {
 
         Utils.escrever("Ele levanta a cabeça e me diz: 'Já que está aí, pega essa vassoura que está do seu lado?'");
         while (!saiu) {
-            System.out.println("\n1 - Pego a vassoura\n2 - Não pego a vassoura\n");
+            Utils.escrever("1 - Pego a vassoura\n2 - Não pego a vassoura");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -184,7 +184,7 @@ public class CenaUm {
         Utils.escrever(
                 "Eu pego a vassoura, levo até ele, e chegando lá ele me diz: 'Você me parece familiar,eu te conheço de algum lugar?'");
         while (!saiu) {
-            System.out.println("\n1 - Digo que sim \n2 - Digo que não\n");
+            Utils.escrever("1 - Digo que sim \n2 - Digo que não");
             String decisao = sc.next();
 
             switch (decisao) {
@@ -209,9 +209,9 @@ public class CenaUm {
     public static void agradecimentoAlan() {
         Jogador.DefinirNomeJogador();
 
-        Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?\n");
+        Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?");
         Utils.escrever(
-                "Bom " + Jogador.GetNomeJogador() + " muito obrigado por aquilo e muito obrigado pela vassoura.'\n");
+                "Bom " + Jogador.GetNomeJogador() + " muito obrigado por aquilo e muito obrigado pela vassoura.'");
         irParaCasa();
 
     }

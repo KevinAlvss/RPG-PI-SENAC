@@ -1,6 +1,7 @@
 package Client;
 
 import java.util.Scanner;
+import Utils.Utils;
 
 public class Menu {
     public static void exibir() {
@@ -9,7 +10,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
 
         while (!saiu) {
-            System.out.println("\n1 - Jogar\n2 - Instruções\n3 - Configurações \n4 - Créditos\n5 - Sair\n");
+            Utils.escrever("\n1 - Jogar\n2 - Instruções\n3 - Configurações \n4 - Créditos\n5 - Sair\n");
 
             String opcao = sc.next();
 

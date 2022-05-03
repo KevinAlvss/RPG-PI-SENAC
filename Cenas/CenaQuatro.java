@@ -21,8 +21,7 @@ public class CenaQuatro {
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Abrir carta do ex chefe Sr.George.\n");
+            Utils.escrever("1 - Abrir carta do ex chefe Sr.George.");
 
             String decisao = sc.next();
 
@@ -44,8 +43,7 @@ public class CenaQuatro {
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Ler carta de oportunidade de emprego.\n");
+            Utils.escrever("1 - Ler carta de oportunidade de emprego.");
 
             String decisao = sc.next();
 
@@ -62,13 +60,12 @@ public class CenaQuatro {
 
     public static void cartaAnuncio() {
         Utils.escrever("'Olá caro(a), " + Jogador.GetNomeJogador() + ".\n"
-                + "\nVenho por meio desta carta lhe informar que você passou em nosso processo seletivo, porém agora temos uma última fase eliminatória, venha amanhã a prefeitura de Richmond as 14:00hrs.'\n");
+                + "\nVenho por meio desta carta lhe informar que você passou em nosso processo seletivo, porém agora temos uma última fase eliminatória, venha amanhã a prefeitura de Richmond as 14:00hrs.'");
 
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Aceitar proposta do chefe.\n2 - Aceitar proposta de emprego.\n");
+            Utils.escrever("1 - Aceitar proposta do chefe.\n2 - Aceitar proposta de emprego.");
 
             String decisao = sc.next();
 
@@ -114,8 +111,7 @@ public class CenaQuatro {
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Decido ir a padaria comer algo.\n2 - Ficar em casa e procurar algo para comer.\n");
+            Utils.escrever("1 - Decido ir a padaria comer algo.\n2 - Ficar em casa e procurar algo para comer.");
 
             String decisao = sc.next();
 
@@ -140,8 +136,7 @@ public class CenaQuatro {
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Conversar com ele e perguntar o que aconteceu.\n2 - Ignorá-lo e ir para padaria.\n");
+            Utils.escrever("1 - Conversar com ele e perguntar o que aconteceu.\n2 - Ignorá-lo e ir para padaria.");
 
             String decisao = sc.next();
 
@@ -169,13 +164,12 @@ public class CenaQuatro {
 
     public static void ficarEmCasa() {
         Utils.escrever(
-                "Vou até a cozinha e reviro a geladeira e os armário em busca de algo, como esse mês o dinheiro estava curto não comprei muitas coisas, encontrei apenas um pedaço de um sanduíche, um pedaço de queijo e um ovo.\n");
+                "Vou até a cozinha e reviro a geladeira e os armário em busca de algo, como esse mês o dinheiro estava curto não comprei muitas coisas, encontrei apenas um pedaço de um sanduíche, um pedaço de queijo e um ovo.");
 
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Decido ir a padaria comer algo.\n2 - Comer o sanduiche e preparar algo com o ovo e o queijo.\n");
+            Utils.escrever("1 - Decido ir a padaria comer algo.\n2 - Comer o sanduiche e preparar algo com o ovo e o queijo.");
 
             String decisao = sc.next();
 
@@ -196,13 +190,12 @@ public class CenaQuatro {
 
     public static void perguntarOqueHouve() {
         Utils.escrever(
-                "Chego próximo do Sr.George e o cumprimento, pergunto o que aconteceu e ele me diz que tinha acabado de ler minha carta, e que ficou muito triste pela minha recusa, pois eu era um dos únicos funcionários que ele confiava e que tinha tão grande potencial. Ele precisava de alguém de confiança para ocupar um importante cargo no brasil, e pediu para que eu reconsiderasse a oferta me dizendo que se eu aceitasse eu ganharia mais dinheiro do que eu poderia sonhar em ter.\n");
+                "Chego próximo do Sr.George e o cumprimento, pergunto o que aconteceu e ele me diz que tinha acabado de ler minha carta, e que ficou muito triste pela minha recusa, pois eu era um dos únicos funcionários que ele confiava e que tinha tão grande potencial. Ele precisava de alguém de confiança para ocupar um importante cargo no brasil, e pediu para que eu reconsiderasse a oferta me dizendo que se eu aceitasse eu ganharia mais dinheiro do que eu poderia sonhar em ter.");
 
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Reconsiderar oferta... e irá com senhor Sr.George.\n2 - Recusar novamente e dizer que algo maior esta por vir.\n");
+            Utils.escrever("1 - Reconsiderar oferta... e irá com senhor Sr.George.\n2 - Recusar novamente e dizer que algo maior esta por vir.");
 
             String decisao = sc.next();
 
@@ -223,7 +216,7 @@ public class CenaQuatro {
 
     public static void comerSanduiche() {
         Utils.escrever(
-                "Então eu fiz o que dava para fazer com o que eu tinha.... após comer, fui até minha estante e peguei um livro de xadrez que eu nunca havia terminado de ler por falta de tempo, e como eu estava querendo passar o tempo peguei-o para ler. Faltavam menos de 200 páginas, mas foi o suficiente para me manter entretido ate às 12:00, e então fui me arrumar parar sair.\n");
+                "Então eu fiz o que dava para fazer com o que eu tinha.... após comer, fui até minha estante e peguei um livro de xadrez que eu nunca havia terminado de ler por falta de tempo, e como eu estava querendo passar o tempo peguei-o para ler. Faltavam menos de 200 páginas, mas foi o suficiente para me manter entretido ate às 12:00, e então fui me arrumar parar sair.");
 
         indoAPrefeitura();
 
@@ -231,7 +224,7 @@ public class CenaQuatro {
 
     public static void indoAPrefeitura() {
         Utils.escrever(
-                "Por volta de 13:10 sai de casa e fui andando até a prefeitura que era perto de casa..... Chegando lá digo que estou pela vaga no jornal, então me levaram a uma sala onde tinham vários rapazes em carteiras como se fosse uma escola e logo pensei que provavelmente iríamos realizar uma prova. Por volta das 13:30 entra Alan na sala, mas antes que eu possa dizer algo ele vai a frente da sala e da boa tarde à todos e começa conversar com um oficial que estava lá.\n");
+                "Por volta de 13:10 sai de casa e fui andando até a prefeitura que era perto de casa..... Chegando lá digo que estou pela vaga no jornal, então me levaram a uma sala onde tinham vários rapazes em carteiras como se fosse uma escola e logo pensei que provavelmente iríamos realizar uma prova. Por volta das 13:30 entra Alan na sala, mas antes que eu possa dizer algo ele vai a frente da sala e da boa tarde à todos e começa conversar com um oficial que estava lá.");
 
         // CenaCinco.initCenaCinco();
 
@@ -239,7 +232,7 @@ public class CenaQuatro {
 
     public static void reconsiderarOferta() {
         Utils.escrever(
-                "Penso novamente na oportunidade e me parece muito interessante, mesmo com aquele sentimento de que algo grande ia acontecer. E então pensei melhor na minha vida e na situação em que eu me encontrava.... Decido ir com Sr.George, ele me pede para que encontrasse ele no ponto de encontro combinado na carta.\n");
+                "Penso novamente na oportunidade e me parece muito interessante, mesmo com aquele sentimento de que algo grande ia acontecer. E então pensei melhor na minha vida e na situação em que eu me encontrava.... Decido ir com Sr.George, ele me pede para que encontrasse ele no ponto de encontro combinado na carta.");
 
         aceitarOportunidade1();
 
@@ -247,13 +240,12 @@ public class CenaQuatro {
 
     public static void recusarNovamente() {
         Utils.escrever(
-                "Então ele me perguntou se eu tinha alguém de confiança para recomendar... pois ele confiava em mim e se eu recomendasse alguém ele certamente chamaria está pessoa.\n");
+                "Então ele me perguntou se eu tinha alguém de confiança para recomendar... pois ele confiava em mim e se eu recomendasse alguém ele certamente chamaria está pessoa.");
 
         boolean saiu = false;
 
         while (!saiu) {
-            System.out.println(
-                    "\n1 - Dizer que conhece um rapaz chamado Alan Turing que é muito inteligente e com certeza tem o que é precisa.\n2 - Dizer que infelizmente não conhece ninguém que  possa recomendar.\n");
+            Utils.escrever("1 - Dizer que conhece um rapaz chamado Alan Turing que é muito inteligente e com certeza tem o que é precisa.\n2 - Dizer que infelizmente não conhece ninguém que  possa recomendar.");
 
             String decisao = sc.next();
 

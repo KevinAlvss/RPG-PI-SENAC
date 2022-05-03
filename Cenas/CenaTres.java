@@ -16,8 +16,8 @@ public class CenaTres {
 
         while (!saiu) {
 
-            System.out.println(
-                    "\n1 - Vou a padaria comer algo.\n2 - Vou correndo rapidamente ao trabalho.\n");
+            Utils.escrever(
+                    "1 - Vou a padaria comer algo.\n2 - Vou correndo rapidamente ao trabalho.");
 
             String decisao = sc.next();
 
@@ -44,8 +44,8 @@ public class CenaTres {
 
         while (!saiu) {
 
-            System.out.println(
-                    "\n1 - Decido fazer a cruzadinha\n2 - Ignoro e leio o jornal.\n");
+            Utils.escrever(
+                    "1 - Decido fazer a cruzadinha\n2 - Ignoro e leio o jornal.");
 
             String decisao = sc.next();
 
@@ -72,8 +72,8 @@ public class CenaTres {
 
         while (!saiu) {
 
-            System.out.println(
-                    "\n1 - Ligo para o número.\n2 - Não ligo para o número.\n");
+            Utils.escrever(
+                    "1 - Ligo para o número.\n2 - Não ligo para o número.");
 
             String decisao = sc.next();
 
@@ -108,8 +108,8 @@ public class CenaTres {
 
         while (!saiu) {
 
-            System.out.println(
-                    "\n1 - Desisto da idéia de chegar a tempo ao trabalho e decido ligar para o número.\n2 - Saio correndo.\n");
+            Utils.escrever(
+                    "1 - Desisto da idéia de chegar a tempo ao trabalho e decido ligar para o número.\n2 - Saio correndo.");
 
             String decisao = sc.next();
 
