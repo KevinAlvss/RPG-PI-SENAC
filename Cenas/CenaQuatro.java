@@ -290,6 +290,6 @@ public class CenaQuatro {
                 "Digo que não conheço ninguém para recomendar, ele agradece e nos despedimos, desejo uma boa viagem à ele, e ele diz “Garoto, estou triste por você não ir comigo, porém muito feliz que esteja seguindo seu próprio caminho, atá mais.”, e então sigo até à padaria. Peço o de sempre e após comer, fiquei por lá conversando com a atendente. Até que olhei para o relógio e já eram 11:40, então me despedi da garçonete e fui correndo para casa me arrumar.");
 
         indoAPrefeitura();
-
+        //...
     }
 }
