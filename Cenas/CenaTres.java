@@ -84,6 +84,7 @@ public class CenaTres {
                     break;
                 case "2":
                     naoLigarParaNumero();
+                    saiu = true;
                     break;
                 default:
                     break;
@@ -95,7 +96,7 @@ public class CenaTres {
         Utils.escrever(
                 "Como eu consegui realizar o feito de de fazer a cruzadinha em menos de 10 minutos e também já estava saturado de meu emprego eu decidi me entregar para oportunidade então liguei para o número.... Uma moça me atendeu e disse que ainda não poderia me passar muitas informações sobre a vaga e me disse que aquela já seria uma fase do processo, ela me fez várias perguntas pessoais, algumas perguntas de lógica e por fim meus dados pessoais para que possam entrar em contato e antes de desligar ela me disse que, se eu não recebesse nenhuma carta em 5 dias era para desconsiderar a ligação... Então sigo em direção ao trabalho, porém não estava com vontade alguma de ir, penso em acelerar um pouco o passo quando escuto o som de uma ambulância chegando cada vez mais perto e em questão de segundos ela passa em minha frente em uma velocidade extremamente rápida, talvez isso tenha sido  uma sinal par ir com calma. Então desisto da idéia de chegar a tempo no trabalho e vou andando com calma.....");
 
-        // CenaQuatro.initCenaQuatro();
+        CenaQuatro.initCenaQuatro();
 
     }
 
