@@ -74,11 +74,11 @@ public class CenaQuatro {
 
             switch (decisao) {
                 case "1":
-                    aceitarOportunidade1();
+                    aceitarPropostaChefe();
                     saiu = true;
                     break;
                 case "2":
-                    aceitarOportunidade2();
+                    aceitarPropostadeEmprego();
                     saiu = true;
                     break;
                 default:
@@ -87,7 +87,7 @@ public class CenaQuatro {
         }
     }
 
-    public static void aceitarOportunidade1() {
+    public static void aceitarPropostaChefe() {
         Utils.escrever(
                 "Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
                         + "\nEle chega até mim e me convida para entrarmos em nosso antigo escritório... Lá ele me explica com detalhes sobre o negócio que o irmão dele estava envolvido com o Sr.Roberto e que lá iriamos iniciar novas vidas, porém com nomes diferentes, pois em tempos de guerra nós deveríamos ter nos juntado ao exército.... O Sr.George me diz que iríamos sair dali uma semana, esse era o tempo que eu tinha para vender todos meus pertences que iriam ficar para trás....\n"
@@ -103,7 +103,7 @@ public class CenaQuatro {
 
     }
 
-    public static void aceitarOportunidade2() {
+    public static void aceitarPropostadeEmprego() {
         Utils.escrever(
                 "Enviei uma carta para o Sr.George agradecendo toda sua consideração e dizendo que eu recusaria a proposta, e disse que não poderia ir, pois estava sentindo que algo maior estava por acontecer...\n"
                         + "\nEntão fiz o que solicitava na carta, e passei o dia ansioso para ver oque iria acontecer\n"
@@ -241,7 +241,7 @@ public class CenaQuatro {
         Utils.escrever(
                 "Penso novamente na oportunidade e me parece muito interessante, mesmo com aquele sentimento de que algo grande ia acontecer. E então pensei melhor na minha vida e na situação em que eu me encontrava.... Decido ir com Sr.George, ele me pede para que encontrasse ele no ponto de encontro combinado na carta.\n");
 
-        aceitarOportunidade1();
+        aceitarPropostaChefe();
 
     }
 
