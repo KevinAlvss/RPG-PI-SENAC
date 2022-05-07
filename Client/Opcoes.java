@@ -20,12 +20,12 @@ public class Opcoes {
     }
 
     public static void creditos() {
-        Utils.escrever("\nCréditos\n");
+        Utils.escrever("Créditos");
         Utils.escrever("Kevin");
-        Utils.escrever("\nAffonso");
-        Utils.escrever("\nRaian");
-        Utils.escrever("\nNathalia");
-        Utils.escrever("\nVyviane\n");
+        Utils.escrever("Affonso");
+        Utils.escrever("Raian");
+        Utils.escrever("Nathalia");
+        Utils.escrever("Vyviane");
     }
 
     public static void sairDoJogo() {
@@ -37,6 +37,7 @@ public class Opcoes {
     }
 
     public static void configuracoes() {
+        
         boolean saiu = false;
 
         while (!saiu) {
@@ -54,5 +55,55 @@ public class Opcoes {
 
         }
 
+    }
+
+    public static void SelecionarCena(){
+
+        boolean saiu = false;
+
+        Utils.escrever("1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n1 - 1° Cena ");
+        String decisao = sc.next();
+
+        while(!saiu){
+            switch(decisao){
+                    case "1":
+                        CenaUm.initCenaUm();
+                        saiu = true;
+                    break; 
+
+                    case "2":
+                        CenaDois.initCenaDois();
+                        saiu = true;
+                    break; 
+
+                    case "3":
+                        CenaTres.initCenaTres();
+                        saiu = true;
+                    break; 
+
+                    case "4":
+                        CenaQuatro.initCenaQuatro();
+                        saiu = true;
+                    break; 
+
+                    case "5":
+                        //CenaCinco.initCenaCinco();
+                        saiu = true;
+                    break; 
+
+                    case "6":
+                        //CenaSeis.initCenaSeis();
+                         saiu = true;
+                    break; 
+
+                    case "7":
+                        //CenaSete.initCenaSete();
+                        saiu = true;
+                    break;
+
+                    default:
+                    break;
+            }
+        }   
     }
 }
