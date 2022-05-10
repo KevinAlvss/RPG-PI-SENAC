@@ -2,9 +2,6 @@ package Cenas;
 
 import java.util.Scanner;
 
-import javax.jws.soap.SOAPBinding.Use;
-import javax.rmi.CORBA.Util;
-
 import Utils.Utils;
 import Client.*;
 
