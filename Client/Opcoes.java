@@ -61,7 +61,7 @@ public class Opcoes {
 
         boolean saiu = false;
 
-        Utils.escrever("1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n1 - 1° Cena ");
+        Utils.escrever("1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
         String decisao = sc.next();
 
         while(!saiu){
@@ -98,6 +98,11 @@ public class Opcoes {
 
                     case "7":
                         //CenaSete.initCenaSete();
+                        saiu = true;
+                    break;
+
+                    case "8":
+                        CenaOito.initCenaOito();
                         saiu = true;
                     break;
 
