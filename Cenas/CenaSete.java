@@ -249,11 +249,11 @@ public class CenaSete {
 
     private static void apoiarComandante() { 
         Utils.escrever("eu digo que concordo com o comandante, que a maquina é inútil e que estamos perdendo tempo.... então todos os rapazes me olham com um olhar de decepcionado e dizem... então tudo bem... se você não tem fé no projeto , então não temos fé em você também, pedimos encarecidamente que você se retire e vá para sua casa, como todos... estevam de acordo com isso eu apenas aceitei...fui ao meu dormitório, peguei minhas coisas e voltei parar cara...  ");
-        //initCenaOito();
+        CenaOito.initCenaOito();
     }
 
     private static void apoiarHugh() {
         Utils.escrever("Eu digo  eu “tmb estou fora... bom se ele sair todos nós vamos juntos, você ira demitir todos nós, sabendo que você nunca vai encontrar um time de gênios q nem o nosso?”, então o comandante olha para nos com cara de bravo e diz ...”Então está certo... vocês tem um mês para me entregar essa maquina funcionando, caso contrario ...estão todos demitidos”... todos nós acenamos com a cabeça dizendo que sim... então ele vai em bora, e como se tivéssemos  ensaiado todos soltamos um suspiro de alivio ");
-        //initCenaOito();
+        CenaOito.initCenaOito();
     }
 }
