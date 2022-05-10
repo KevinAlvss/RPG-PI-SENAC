@@ -10,7 +10,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
 
         while (!saiu) {
-            Utils.escrever("\n1 - Jogar\n2 - Instruções\n3 - Configurações \n4 - Créditos\n5 - Sair\n");
+            Utils.escrever("\n1 - Jogar\n2 - Instruções\n3 - Selecionsar Cena\n4 - Configurações \n5 - Créditos\n6 - Sair\n");
 
             String opcao = sc.next();
 
@@ -23,12 +23,15 @@ public class Menu {
                     Opcoes.instrucoes();
                     break;
                 case "3":
-                    Opcoes.configuracoes();
+                    Opcoes.SelecionarCena();
                     break;
                 case "4":
-                    Opcoes.creditos();
+                    Opcoes.configuracoes();
                     break;
                 case "5":
+                    Opcoes.creditos();
+                    break;
+                case "6":
                     Opcoes.sairDoJogo();
                     saiu = true;
                     break;

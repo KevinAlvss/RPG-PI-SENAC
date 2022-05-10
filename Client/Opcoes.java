@@ -97,7 +97,7 @@ public class Opcoes {
                     break; 
 
                     case "7":
-                        //CenaSete.initCenaSete();
+                        CenaSete.initCenaSete();
                         saiu = true;
                     break;
 
