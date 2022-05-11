@@ -18,7 +18,7 @@ public class CenaSete {
     {
         boolean saiu = false;
 
-        while (saiu) {
+        while (!saiu) {
             Utils.escrever("1 - Perguntar oque está acontecendo\n2 - Não dizer nada ");
             String decisao = sc.next();
 

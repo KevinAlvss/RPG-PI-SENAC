@@ -17,7 +17,7 @@ public class CenaOito {
     public static void comentarOuNao(){
         
         boolean saiu = false;
-        while (saiu) {
+        while (!saiu) {
 
             Utils.escrever("1 - Comentar com  Alan e Joan sobre o assunto\n2 - Não dizer nada");
             String decisao = sc.next();
