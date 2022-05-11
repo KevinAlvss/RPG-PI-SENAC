@@ -1,7 +1,6 @@
 package Client;
 
 import Utils.Utils;
-import Client.*;
 
 public class FimDeJogo {
 
