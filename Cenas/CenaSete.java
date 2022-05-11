@@ -1,7 +1,6 @@
 package Cenas;
 
 import java.util.Scanner;
-
 import Utils.Utils;
 import Client.*;
 
@@ -11,8 +10,12 @@ public class CenaSete {
 
     public static void initCenaSete(){
         
-        Utils.escrever("No dia seguinte fomos ao nosso escritório para começar nosso trabalho de sempre ... porem quando chegamos lá nós nos encostramos com   o Comandante Denniston na porta de nossa sala acompanhado 2 dois soldados");
-        
+        Utils.escrever("No dia seguinte fomos ao nosso escritório para começar nosso trabalho de sempre ... porem quando chegamos lá\n nós nos encostramos com o Comandante Denniston na porta de nossa sala acompanhado 2 dois soldados");
+        decisaoPerguntar();
+    }    
+
+    public static void decisaoPerguntar()
+    {
         boolean saiu = false;
 
         while (saiu) {
