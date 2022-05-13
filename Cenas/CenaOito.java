@@ -9,7 +9,7 @@ public class CenaOito {
     static Scanner sc = new Scanner(System.in);
 
     public static void initCenaOito() {
-    
+
         Utils.escrever("Já fazem 14 dias que o comandante nos deu o prazo, nos trabalhamos muito, mas não conseguimos muitas evoluções, então hoje decidimos ir a um bar para esfriar a cabeça. Estava eu Alan e Joan conversando, até que uma garota chamada Helen amiga de Joan se aproximou e começou a conversar com a gente e logo quando Helen se aproximou Hugh também entrou na conversa, com olhos maliciosos em direção de Helen, então Hugh a cumprimenta e começa a chaveca-la,a partir desse momento fiquei um pouco desconexo do assunto e não prestei muita atenção, só voltei a prestar atenção apos ela comentar tem atração em um homem que ela nem conhece, mas que era uma pena pois ele tinha uma namorada, e ela tambem comentou que esse homem é o rapaz que ela interceptava as mensagens (não sei como chegaram neste assunto), e ela e Hugh foram ate o balcão pedir uma bebida");
         comentarOuNao();
     }
