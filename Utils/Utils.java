@@ -10,6 +10,7 @@ public class Utils {
                 System.out.print(".");
                 Thread.sleep(700);
             }
+            System.out.print("\n");
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -27,7 +28,5 @@ public class Utils {
         } catch (Exception e) {
             System.out.println(e);
         }
-
-        //Merge
     }
 }
