@@ -37,7 +37,7 @@ public class Opcoes {
     }
 
     public static void configuracoes() {
-        
+
         boolean saiu = false;
 
         while (!saiu) {
@@ -57,13 +57,15 @@ public class Opcoes {
 
     }
 
-    public static void SelecionarCena(){
+    public static void SelecionarCena() {
 
         boolean saiu = false;
 
-        Utils.escrever("1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
+        Utils.escrever(
+                "1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
         String decisao = sc.next();
 
+<<<<<<< Updated upstream
         while(!saiu){
             switch(decisao){
                     case "1":
@@ -109,11 +111,53 @@ public class Opcoes {
                         Jogador.DefinirNomeJogador();
                         CenaOito.initCenaOito();
                         saiu = true;
+=======
+        while (!saiu) {
+            switch (decisao) {
+                case "1":
+                    CenaUm.initCenaUm();
+                    saiu = true;
                     break;
 
-                    default:
+                case "2":
+                    CenaDois.initCenaDois();
+                    saiu = true;
+                    break;
+
+                case "3":
+                    CenaTres.initCenaTres();
+                    saiu = true;
+>>>>>>> Stashed changes
+                    break;
+
+                case "4":
+                    CenaQuatro.initCenaQuatro();
+                    saiu = true;
+                    break;
+
+                case "5":
+                    // CenaCinco.initCenaCinco();
+                    saiu = true;
+                    break;
+
+                case "6":
+                    CenaSeis.initCenaSeis();
+                    saiu = true;
+                    break;
+
+                case "7":
+                    CenaSete.initCenaSete();
+                    saiu = true;
+                    break;
+
+                case "8":
+                    CenaOito.initCenaOito();
+                    saiu = true;
+                    break;
+
+                default:
                     break;
             }
-        }   
+        }
     }
 }
