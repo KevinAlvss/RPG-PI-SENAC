@@ -3,8 +3,6 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
-import Client.Menu;
-
 public class CenaSeis {
 
   static Scanner sc = new Scanner(System.in);

@@ -8,22 +8,10 @@ public class CenaSete {
 
     static Scanner sc = new Scanner(System.in);
 
-<<<<<<< Updated upstream
-    public static void initCenaSete(){
-        
-        Utils.escrever("No dia seguinte fomos ao nosso escritório para começar nosso trabalho de sempre ... porem quando chegamos lá\n nós nos encostramos com o Comandante Denniston na porta de nossa sala acompanhado 2 dois soldados");
-        decisaoPerguntar();
-    }    
-
-    public static void decisaoPerguntar()
-    {
-=======
     public static void initCenaSete() {
 
         Utils.escrever(
                 "No dia seguinte fomos ao nosso escritório para começar nosso trabalho de sempre ... porem quando chegamos lá nós nos encostramos com   o Comandante Denniston na porta de nossa sala acompanhado 2 dois soldados");
-
->>>>>>> Stashed changes
         boolean saiu = false;
 
         while (!saiu) {
