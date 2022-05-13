@@ -65,53 +65,6 @@ public class Opcoes {
                 "1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
         String decisao = sc.next();
 
-<<<<<<< Updated upstream
-        while(!saiu){
-            switch(decisao){
-                    case "1":
-                        CenaUm.initCenaUm();
-                        saiu = true;
-                    break; 
-
-                    case "2":
-                        Jogador.DefinirNomeJogador();
-                        CenaDois.initCenaDois();
-                        saiu = true;
-                    break; 
-
-                    case "3":
-                        Jogador.DefinirNomeJogador();
-                        CenaTres.initCenaTres();
-                        saiu = true;
-                    break; 
-
-                    case "4":
-                        Jogador.DefinirNomeJogador();
-                        CenaQuatro.initCenaQuatro();
-                        saiu = true;
-                    break; 
-
-                    case "5":
-                        //CenaCinco.initCenaCinco();
-                        saiu = true;
-                    break; 
-
-                    case "6":
-                        //CenaSeis.initCenaSeis();
-                         saiu = true;
-                    break; 
-
-                    case "7":
-                        Jogador.DefinirNomeJogador();
-                        CenaSete.initCenaSete();
-                        saiu = true;
-                    break;
-
-                    case "8":
-                        Jogador.DefinirNomeJogador();
-                        CenaOito.initCenaOito();
-                        saiu = true;
-=======
         while (!saiu) {
             switch (decisao) {
                 case "1":
@@ -127,7 +80,6 @@ public class Opcoes {
                 case "3":
                     CenaTres.initCenaTres();
                     saiu = true;
->>>>>>> Stashed changes
                     break;
 
                 case "4":
@@ -136,7 +88,6 @@ public class Opcoes {
                     break;
 
                 case "5":
-                    // CenaCinco.initCenaCinco();
                     saiu = true;
                     break;
 
