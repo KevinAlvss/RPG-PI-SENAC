@@ -16,7 +16,7 @@ public class CenaUm {
         decisaoPoliciais();
     }
 
-    public static void decisaoPoliciais() {
+    private static void decisaoPoliciais() {
 
         boolean saiu = false;
 
@@ -42,17 +42,17 @@ public class CenaUm {
         }
     }
 
-    public static void passarDiretoPelosPoliciais() {
+    private static void passarDiretoPelosPoliciais() {
         Utils.escrever("Um policial bateu no meu peito e me disse: 'EI JOVEM, ESSA AREA É RESTRITA'");
         decisaoPoliciaisDois();
     }
 
-    public static void perguntarOqueEstaAcontecendo() {
+    private static void perguntarOqueEstaAcontecendo() {
         Utils.escrever("O policial me pergunta: 'Porque eu deveria te contar??'");
         decidirSuaRelacaoComAlan();
     }
 
-    public static void decisaoPoliciaisDois() {
+    private static void decisaoPoliciaisDois() {
         boolean saiu = false;
 
         while (!saiu) {
@@ -76,7 +76,7 @@ public class CenaUm {
         }
     }
 
-    public static void decidirSuaRelacaoComAlan() {
+    private static void decidirSuaRelacaoComAlan() {
         boolean saiu = false;
 
         while (!saiu) {
@@ -98,7 +98,7 @@ public class CenaUm {
         }
     }
 
-    public static void explicarAoPolicialSuaRelacaoComAlan() {
+    private static void explicarAoPolicialSuaRelacaoComAlan() {
 
         Utils.escrever("Então senhor policial o Alan é meu...");
         Utils.escrever(
@@ -106,7 +106,7 @@ public class CenaUm {
         interacaoComAlan();
     }
 
-    public static void interacaoComAlan() {
+    private static void interacaoComAlan() {
         boolean saiu = false;
 
         Utils.escrever("Enquanto os policiais estão indo embora vejo o Alan através de uma janela");
@@ -130,7 +130,7 @@ public class CenaUm {
         }
     }
 
-    public static void alanIgnora() {
+    private static void alanIgnora() {
         boolean saiu = false;
 
         Utils.escrever("Percebo que ele me ignora");
@@ -154,7 +154,7 @@ public class CenaUm {
         }
     }
 
-    public static void AlanResponde() {
+    private static void AlanResponde() {
         boolean saiu = false;
 
         Utils.escrever("Ele levanta a cabeça e me diz: 'Já que está aí, pega essa vassoura que está do seu lado?'");
@@ -179,7 +179,7 @@ public class CenaUm {
 
     }
 
-    public static void pegoAVassoura() {
+    private static void pegoAVassoura() {
         boolean saiu = false;
         Utils.escrever(
                 "Eu pego a vassoura, levo até ele, e chegando lá ele me diz: 'Você me parece familiar,eu te conheço de algum lugar?'");
@@ -206,7 +206,7 @@ public class CenaUm {
         }
     }
 
-    public static void agradecimentoAlan() {
+    private static void agradecimentoAlan() {
         Jogador.DefinirNomeJogador();
 
         Utils.escrever("\nAlan diz: 'ISSO MESMO! como pude esquecer o nome da pessoa que salvou minha vida?");
@@ -216,7 +216,7 @@ public class CenaUm {
 
     }
 
-    public static void irParaCasa() {
+    private static void irParaCasa() {
         try {
             Utils.escrever("Após isso fui embora para casa seguir minha rotina");
             Thread.sleep(2000);

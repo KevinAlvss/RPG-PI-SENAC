@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
+
 public class CenaSeis {
 
   static Scanner sc = new Scanner(System.in);
@@ -38,7 +39,7 @@ public class CenaSeis {
     }
   }
 
-  public static void perguntarOndeEstaJoan() {
+  private static void perguntarOndeEstaJoan() {
     Utils.escrever(
         "Perguntei ao Jack aonde estava Joan, e jack me respondeu 'Eu não sei exatamente,"
             + " ela disse algo relacionado aos pais não gostarem dela ir"
@@ -47,7 +48,7 @@ public class CenaSeis {
     prazerHugh();
   }
 
-  public static void prazerHugh() {
+  private static void prazerHugh() {
 
     Utils.escrever(
         "Derrepente um rapaz se aproxima de mim e jack e diz 'Muito prazer,"
@@ -77,25 +78,25 @@ public class CenaSeis {
     }
   }
 
-  public static void naoDizerNada() {
+  private static void naoDizerNada() {
     prazerHugh();
   }
 
-  public static void dizerSim() {
+  private static void dizerSim() {
     Utils.escrever(
         "Eu disse a hugh 'Provavelmente ela não vira , pois os pais dela"
             + " não gostam que ela se envolva em um ambiente com muitos homens'");
     dizerNao();
   }
 
-  public static void dizerNao() {
+  private static void dizerNao() {
     Utils.escrever("Então tá, vemos lá, depois o pessoal resolve isso"
         + " Hugh nos leva a uma sala aonde iremos desempenhar nosso trabalho"
         + " e diz que é lá aonde passaremos todo nossos dias até decifrarmos a maldita maquina alemã....");
     decisaoHugh();
   }
 
-  public static void decisaoHugh() {
+  private static void decisaoHugh() {
     Utils.escrever("Em um certo dia estavamos terminando de decifrar os codigos nazistas ate que um relogio toca  e"
         + " e imediatamente Hugh joga todos os papeis no chão com muita raiva,");
 
@@ -123,7 +124,7 @@ public class CenaSeis {
     irParaGalpao();
   }
 
-  public static void irParaGalpao() {
+  private static void irParaGalpao() {
 
     Utils.escrever(
         "Hugh sai andando com passos largos com muita raiva em direção ao galpão em que Alan estava construindo uma curiosa maquina");

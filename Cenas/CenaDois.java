@@ -37,19 +37,19 @@ public class CenaDois {
         }
     }
 
-    public static void corroAtrasDosAgressores() {
+    private static void corroAtrasDosAgressores() {
         Utils.escrever(
                 "Eu persigo eles até pararem em uma sala e começarem a bater nele");
         chamarChristopher();
     }
 
-    public static void naoFacoNada() {
+    private static void naoFacoNada() {
         Utils.escrever(
                 "O sinal do intervalo bate e vou para minha sala e vejo os agressores batendo no Alan");
         chamarChristopher();
     }
 
-    public static void chamarChristopher() {
+    private static void chamarChristopher() {
         Utils.escrever("1 - Chamar Christopher.");
 
         String decisao = sc.next();
