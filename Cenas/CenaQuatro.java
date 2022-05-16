@@ -228,7 +228,7 @@ public class CenaQuatro {
         Utils.escrever(
                 "Por volta de 13:10 sai de casa e fui andando até a prefeitura que era perto de casa..... Chegando lá digo que estou pela vaga no jornal, então me levaram a uma sala onde tinham vários rapazes em carteiras como se fosse uma escola e logo pensei que provavelmente iríamos realizar uma prova. Por volta das 13:30 entra Alan na sala, mas antes que eu possa dizer algo ele vai a frente da sala e da boa tarde à todos e começa conversar com um oficial que estava lá.");
 
-        // CenaCinco.initCenaCinco();
+        CenaCinco.initCenaCinco();
 
     }
 
