@@ -73,35 +73,43 @@ public class Opcoes {
                     break;
 
                 case "2":
+                    Jogador.DefinirNomeJogador();
                     CenaDois.initCenaDois();
                     saiu = true;
                     break;
 
                 case "3":
+                    Jogador.DefinirNomeJogador();
                     CenaTres.initCenaTres();
                     saiu = true;
                     break;
 
                 case "4":
+                    Jogador.DefinirNomeJogador();
                     CenaQuatro.initCenaQuatro();
                     saiu = true;
                     break;
 
                 case "5":
+                    Jogador.DefinirNomeJogador();
+                    CenaCinco.initCenaCinco();
                     saiu = true;
                     break;
 
                 case "6":
+                    Jogador.DefinirNomeJogador();
                     CenaSeis.initCenaSeis();
                     saiu = true;
                     break;
 
                 case "7":
+                    Jogador.DefinirNomeJogador();
                     CenaSete.initCenaSete();
                     saiu = true;
                     break;
 
                 case "8":
+                    Jogador.DefinirNomeJogador();
                     CenaOito.initCenaOito();
                     saiu = true;
                     break;
