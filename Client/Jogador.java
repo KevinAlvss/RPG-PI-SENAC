@@ -15,7 +15,6 @@ public class Jogador {
         System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
         nomeJogador = nome;
-
     }
 
 }
