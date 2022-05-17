@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
+import Client.FimDeJogo;
 
 public class CenaSeis {
 
@@ -155,8 +156,8 @@ public class CenaSeis {
                   + " com estilhaços de vidro em seu rosto, cheguei próximo ao corpo de Alan e tentei o acordar... quando coloquei o dedo em sua veio do pescoço"
                   + " e não senti pulsação .... Alan havia batido a nuca na quina da maquina e veio a falecer.... e o projeto todo foi arquivado pelo cabeça do projeto"
                   + " ter morrido e um dos membros estar foragido por assassinato.");
-          // fim de jogo
-          saiu = true;
+                  FimDeJogo.creditosFimDeJogo();    
+                  saiu = true;
           break;
         default:
           break;

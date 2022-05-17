@@ -258,7 +258,7 @@ public class CenaSete {
         Utils.escrever(
                 "eu digo que concordo com o comandante, que a maquina é inútil e que estamos perdendo tempo.... então todos os rapazes me olham com um olhar de decepcionado e dizem... então tudo bem... se você não tem fé no projeto , então não temos fé em você também, pedimos encarecidamente que você se retire e vá para sua casa, como todos... estevam de acordo com isso eu apenas aceitei...fui ao meu dormitório, peguei minhas coisas e voltei parar cara...  ");
         Utils.escrever("Fim de Jogo");
-        Opcoes.creditos();
+        FimDeJogo.creditosFimDeJogo();    
     }
 
     private static void apoiarHugh() {

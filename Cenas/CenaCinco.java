@@ -3,7 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
-import Client.Menu;
+import Client.FimDeJogo;
 
 public class CenaCinco {
 
@@ -138,8 +138,7 @@ public class CenaCinco {
                 "\nInfelizmente eu não passei na prova, e estava perdido, não sabia mais o que fazer e nem o que pensar, então minha única saída para ajudar meu pais era me alistar no exército....\n");
 
         Utils.escrever("Fim de jogo.");
-
-        Menu.exibir();
+        FimDeJogo.creditosFimDeJogo();    
     }
 
 }

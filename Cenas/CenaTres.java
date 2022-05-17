@@ -2,8 +2,7 @@ package Cenas;
 
 import java.util.Scanner;
 import Utils.Utils;
-import Client.Menu;
-
+import Client.FimDeJogo;
 public class CenaTres {
 
     static Scanner sc = new Scanner(System.in);
@@ -129,13 +128,9 @@ public class CenaTres {
     }
 
     private static void sairComPressa() {
-        Utils.escrever(
-                "Saio com pressa, vou correndo em direção ao outro lado da rua e como estava com muita pressa não olho para os lados. Sem prestar atenção no ambiente algo me chama atenção, um som muito estridente de uma ambulância vindo em minha direção e quando me dei conta do que estava acontecendo ..... já era tarde de mais para fujir");
-        // O protagonista morre e aparece os créditos ou volta para o menu inicial.
-        Utils.escrever(
-                "Fim de jogo.");
+        Utils.escrever("Saio com pressa, vou correndo em direção ao outro lado da rua e como estava com muita pressa não olho para os lados. Sem prestar atenção no ambiente algo me chama atenção, um som muito estridente de uma ambulância vindo em minha direção e quando me dei conta do que estava acontecendo ..... já era tarde de mais para fujir");
+        Utils.escrever("Fim de jogo.");
 
-        Menu.exibir();
-
+        FimDeJogo.creditosFimDeJogo();    
     }
 }

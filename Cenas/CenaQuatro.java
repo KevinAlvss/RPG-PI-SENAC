@@ -4,6 +4,7 @@ import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
 import Client.Menu;
+import Client.FimDeJogo;
 
 public class CenaQuatro {
 
@@ -85,19 +86,15 @@ public class CenaQuatro {
     }
 
     private static void aceitarOportunidade1() {
-        Utils.escrever(
-                "Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
+        Utils.escrever("Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
                         + "\nEle chega até mim e me convida para entrarmos em nosso antigo escritório... Lá ele me explica com detalhes sobre o negócio que o irmão dele estava envolvido com o Sr.Roberto e que lá iriamos iniciar novas vidas, porém com nomes diferentes, pois em tempos de guerra nós deveríamos ter nos juntado ao exército.... O Sr.George me diz que iríamos sair dali uma semana, esse era o tempo que eu tinha para vender todos meus pertences que iriam ficar para trás....\n"
                         + "\nConsegui. Foi difícil, porém eu consegui vender tudo que tinha e em tempo de guerra é dificil lucrar com isso.... A partir daqui serão pessoas novas, país novo, idioma novo, vida nova.");
 
-        Utils.escrever(
-                "A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
+        Utils.escrever("A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
 
-        Utils.escrever(
-                "Fim de jogo.");
+        Utils.escrever("Fim de jogo.");
 
-        Menu.exibir();
-
+        FimDeJogo.creditosFimDeJogo(); 
     }
 
     private static void aceitarOportunidade2() {
