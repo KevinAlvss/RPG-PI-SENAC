@@ -26,28 +26,28 @@ public class CenaCinco {
         resposta = sc.nextDouble();
 
         if (resposta == 9) {
-            pontos += 1.5;
+            pontos += 0.5;
         }
 
         Utils.escrever("\nb) 2, 4, 8, 16, 32, 64...?\n");
          resposta = sc.nextDouble();
 
         if (resposta == 128) {
-            pontos += 1.5;
+            pontos += 0.5;
         }
 
         Utils.escrever("\nc) 0, 1, 4, 9, 16, 25, 36...?\n");
         resposta = sc.nextDouble();
 
         if (resposta == 49) {
-            pontos += 1.5;
+            pontos += 0.5;
         }
 
         Utils.escrever("\nd) 4, 16, 36, 64...?\n");
         resposta = sc.nextDouble();
 
         if (resposta == 100) {
-            pontos += 1.5;
+            pontos += 0.5;
         }
 
         Utils.escrever(
@@ -59,7 +59,7 @@ public class CenaCinco {
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("b") || respostaEscolha.equals("B")) {
-            pontos += 1.5;
+            pontos += 2;
         }
 
         Utils.escrever(
@@ -70,7 +70,7 @@ public class CenaCinco {
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("a") || respostaEscolha.equals("A")) {
-            pontos += 1.5;
+            pontos += 2;
         }
 
 
@@ -80,7 +80,7 @@ public class CenaCinco {
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("a") || respostaEscolha.equals("A")) {
-            pontos += 1.5;
+            pontos += 2;
         }
 
 
@@ -92,7 +92,7 @@ public class CenaCinco {
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("e") || respostaEscolha.equals("E")) {
-            pontos += 1.5;
+            pontos += 2;
         }
 
         resultado();
@@ -127,7 +127,9 @@ public class CenaCinco {
                         + "\nJoan pergunta: “e o que vamos fazer?”\n"
                         + "\nAlan nos diz:\n"
                         + "\nVamos quebrar um código nazista inquebrável e vencer a guerra, existe uma máquina alemã chamada enigma, aonde ela manda mensagens criptografadas todos os dias para a suas tropas, nós conseguimos a interceptá-las e até temos um exemplar na máquina, porém o problema é essa criptografia tem uma chave que muda todo dia, então mesmo que nós conseguiremos decifra-las nós não teríamos tempo para avisar aos aliando antes que eles mudassem a chave novamente, então nossa missão e descobrir como obter essa chave\n");
-    }
+   
+            
+        }
 
     private static void reprovado() {
 
