@@ -65,11 +65,8 @@ public class CenaCinco {
         Utils.escrever(
                 "\n3) Duas tartarugas estavam juntas e começaram a caminhar em linha reta em direção a um lago distante. A primeira tartaruga percorreu 30 metros por dia e demorou 16 dias para chegar ao lago. A segunda tartaruga só conseguiu percorrer 20 metros por dia e, portanto, chegou ao lago alguns dias depois da primeira. Quando a primeira tartaruga chegou ao lago, o número de dias que ela teve que esperar para a segunda tartaruga chegar foi:\n");
 
-        Utils.escrever("a) 8");
-        Utils.escrever("b) 9");
-        Utils.escrever("c) 10");
-        Utils.escrever("d) 12");
-        Utils.escrever("e) 15");
+
+        Utils.escrever("a) 8\nb) 9\nc) 10\nd) 12\ne) 15");
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("a") || respostaEscolha.equals("A")) {
@@ -79,11 +76,7 @@ public class CenaCinco {
 
         Utils.escrever("4)Duas tartarugas estavam juntas e começaram a caminhar em linha reta em direção a um lago distante. A primeira tartaruga percorreu 30 metros por dia e demorou 16 dias para chegar ao lago. A segunda tartaruga só conseguiu percorrer 20 metros por dia e, portanto, chegou ao lago alguns dias depois da primeira. Quando a primeira tartaruga chegou ao lago, o número de dias que ela teve que esperar para a segunda tartaruga chegar foi:");
         
-        Utils.escrever("a) 8");
-        Utils.escrever("b) 10");
-        Utils.escrever("c) 9");
-        Utils.escrever("d) 12");
-        Utils.escrever("e) 15");
+        Utils.escrever("a) 8\nb) 10\nc) 9\nd) 12\ne) 15");
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("a") || respostaEscolha.equals("A")) {
@@ -95,11 +88,7 @@ public class CenaCinco {
         Utils.escrever(
                 "\n5) Alguns consideram que a cidade de Florianópolis foi fundada no dia 23 de março de 1726, que caiu em um sábado. Após 90 dias, no dia 21 de junho, a data assinalou o início do inverno, quando a noite é a mais longa do ano. Esse dia caiu em uma:\n");
 
-        Utils.escrever("a) segunda-feira");
-        Utils.escrever("b) terça-feira");
-        Utils.escrever("c) quarta-feira");
-        Utils.escrever("d) quinta-feira");
-        Utils.escrever("e) sexta-feira ");
+        Utils.escrever("a) segunda-feira\nb) terça-feira\nc) quarta-feira\nd) quinta-feira\ne) sexta-feira ");
         respostaEscolha = sc.next();
 
         if (respostaEscolha.equals("e") || respostaEscolha.equals("E")) {
