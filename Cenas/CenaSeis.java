@@ -142,9 +142,9 @@ public class CenaSeis {
           Utils.escrever(
               "Fui atrás de Hugh pois ele parecia estar fora de si e poderia fazer alguma besteira, quando cheguei ao galpão Hugh"
                   + " estava prestes a arremessar um copo em direção de alan mas eu intervi e segurei o braço dele fazendo com que o copo vá para outra"
-                  + " direção, Hugh diz “VOCÊ E ESSA MAQUINA IDIOTA,VOCÊ FICA AI BRINCANDO DE CONSTRUIR AO INVES DE AJUDAR!!!! ESTOU CANSADO DESSA MERDA!!!”"
-                  + " Peter concorda com Huhg e diz “Ele tem razão Alan , estamos perdendo muito tempo com isso”"
-                  + " Alan diz “NÃO É PERCA DE TEMPO , MINHA MAQUINA VAI FUNCIONAR SIM”, como o clima já estava bem tenso decidi não dizer nada");
+                  + " direção, Hugh diz ``VOCÊ E ESSA MAQUINA IDIOTA,VOCÊ FICA AI BRINCANDO DE CONSTRUIR AO INVES DE AJUDAR!!!! ESTOU CANSADO DESSA MERDA!!!´´"
+                  + " Peter concorda com Huhg e diz ``Ele tem razão Alan , estamos perdendo muito tempo com isso´´"
+                  + " Alan diz ``NÃO É PERCA DE TEMPO , MINHA MAQUINA VAI FUNCIONAR SIM´´, como o clima já estava bem tenso decidi não dizer nada");
           CenaSete.initCenaSete();
           saiu = true;
           break;

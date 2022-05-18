@@ -29,4 +29,16 @@ public class Utils {
             System.out.println(e);
         }
     }
+
+    public static void escreverNaoPular(String conteudo) {
+        try {
+            for (int i = 0; i < conteudo.length(); i++) {
+                Thread.sleep(Configuracoes.GetVelocidadeDeTexto());
+                System.out.print(conteudo.charAt(i));
+            }
+            System.out.print("\n");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 }

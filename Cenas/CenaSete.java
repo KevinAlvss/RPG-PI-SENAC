@@ -98,17 +98,17 @@ public class CenaSete {
 
     private static void continuarAndandoOuIrComEles() {
         Utils.escrever(
-                "Eu  estava com fome então decidi ir comer com o pessoal, quase todos fomos comer menos Hugh ele ficou na sala, disse que estava terminando de fazer algumas coisas... um tempinho se passa e vemos Hugh indo em direção ao galpão com a maquina de Alan, alguns minutos depois vemos ele voltando para  nossa sala... e mais uns minutos depois nos voltamos para nossa sala e Hugh nos dis “Bom.... não sou muito fã do Alan mas vou fazer isso pelo Joan, eu fiz alguns cálculos e percebi que da para otimizar o espaço organizando os fios de uma maneira diferente”.... vou la falar com ele ");
+                "Eu  estava com fome então decidi ir comer com o pessoal, quase todos fomos comer menos Hugh ele ficou na sala, disse que estava terminando de fazer algumas coisas... um tempinho se passa e vemos Hugh indo em direção ao galpão com a maquina de Alan, alguns minutos depois vemos ele voltando para  nossa sala... e mais uns minutos depois nos voltamos para nossa sala e Hugh nos dis ``Bom.... não sou muito fã do Alan mas vou fazer isso pelo Joan, eu fiz alguns cálculos e percebi que da para otimizar o espaço organizando os fios de uma maneira diferente´´.... vou la falar com ele ");
         Utils.escrever(
-                "Ele leva ate Alan e mostra pra ele , Alan diz que pode funcionar então ele, Alan e Joan vão ate o galpão e começamos a arrumar as coias, eram muitos fios parar arrumar então Hugh foi nos pedir ajuda, meio relutantes com a ideia nos fomos e todos nos começamos agilizar  o projeto de Alan, apos 3 dias... estava pronto, então Alan a ligou.... e ela começou a girar e girar e gira.... por muito tempo ele sempre dizia “Vai funcionar, temos só que esperar um pouco”... então decidimos ir tomar um café enquanto a maquina ficava girando os rotores sem parar...");
+                "Ele leva ate Alan e mostra pra ele , Alan diz que pode funcionar então ele, Alan e Joan vão ate o galpão e começamos a arrumar as coias, eram muitos fios parar arrumar então Hugh foi nos pedir ajuda, meio relutantes com a ideia nos fomos e todos nos começamos agilizar  o projeto de Alan, apos 3 dias... estava pronto, então Alan a ligou.... e ela começou a girar e girar e gira.... por muito tempo ele sempre dizia ``Vai funcionar, temos só que esperar um pouco´´... então decidimos ir tomar um café enquanto a maquina ficava girando os rotores sem parar...");
         irTomarCafe();
     }
 
     private static void analiseAsPlantas() {
         Utils.escrever(
-                "Fico na sala , e continuo analisando os papeis e então me dou conta que com tantas conexões e com tantos cabos isso realmente não vai caber la dentro, então eu decido ir lá no galpão verificar isso , chegando lá vejo a quantidade de fios jogados no chão,  apos ver isso volto nossa sala para fazer uns cálculos, como já es medidas já estavam na plantas não precisei medir nada.... alguns minutos se passaram, fiz alguns cálculos para ver a área que os cabos iriam ocupar e que os fusíveis iam ocupar , com a quantidade de cabos que tinha iria ficar difícil de todos os fuzileis caberem lá... mais alguns minutos se passaram e os rapazes chegaram no exstamo momento que cheguei a uma conclusão, então eu disse a eles “Pessoal eu estava vendo os esquemas da maquina de Alan e percebi que ” ");
+                "Fico na sala , e continuo analisando os papeis e então me dou conta que com tantas conexões e com tantos cabos isso realmente não vai caber la dentro, então eu decido ir lá no galpão verificar isso , chegando lá vejo a quantidade de fios jogados no chão,  apos ver isso volto nossa sala para fazer uns cálculos, como já es medidas já estavam na plantas não precisei medir nada.... alguns minutos se passaram, fiz alguns cálculos para ver a área que os cabos iriam ocupar e que os fusíveis iam ocupar , com a quantidade de cabos que tinha iria ficar difícil de todos os fuzileis caberem lá... mais alguns minutos se passaram e os rapazes chegaram no exstamo momento que cheguei a uma conclusão, então eu disse a eles ``Pessoal eu estava vendo os esquemas da maquina de Alan e percebi que ´´ ");
         Utils.escrever(
-                "Vou a ate alan e digo oque descobri sobre os fios e ele me responde “Ehh pode funcionar, vamos tentar”, então eu ele e joan vamos ate o galpão e começamos a arrumar as coias, eram muitos fios parar arrumar então decidi pedir ajuda ao pessoal, meio relutantes com a ideia eles foram e todos nos começamos agilizar  o projeto de Alan, apos 3 dias... estava pronto, então Alan a ligou.... e ela começou a girar e girar e gira.... por muito tempo ele sempre dizia “Vai funcionar, temos só que esperar um pouco”... então decidimos ir tomar um café enquanto a maquina ficava girando os rotores sem parar...");
+                "Vou a ate alan e digo oque descobri sobre os fios e ele me responde ``Ehh pode funcionar, vamos tentar´´, então eu ele e joan vamos ate o galpão e começamos a arrumar as coias, eram muitos fios parar arrumar então decidi pedir ajuda ao pessoal, meio relutantes com a ideia eles foram e todos nos começamos agilizar  o projeto de Alan, apos 3 dias... estava pronto, então Alan a ligou.... e ela começou a girar e girar e gira.... por muito tempo ele sempre dizia ``Vai funcionar, temos só que esperar um pouco´´... então decidimos ir tomar um café enquanto a maquina ficava girando os rotores sem parar...");
         irTomarCafe();
     }
 
@@ -141,7 +141,7 @@ public class CenaSete {
     private static void naoIrComOsRapazes() {
 
         Utils.escrever(
-                "John diz “Sera que devemos ir olhar ?”, então respondo não, acho que deve ser apenas o Alan mexendo na maquina... escutamos mais batidas e gritaria, e hugh diz “Pessoal acho melhor irmos lá ver oque está acontecendo...”,hugh e os rapazes foram em direção ao galpão");
+                "John diz ``Sera que devemos ir olhar ?´´, então respondo não, acho que deve ser apenas o Alan mexendo na maquina... escutamos mais batidas e gritaria, e hugh diz ``Pessoal acho melhor irmos lá ver oque está acontecendo...´´,hugh e os rapazes foram em direção ao galpão");
 
         boolean saiu = false;
 
@@ -169,8 +169,8 @@ public class CenaSete {
 
     private static void naoIrComOsRapazesDois() {
 
-        System.out.print("\nEu permaneço sentado em minha cadeira,Peter pergunta “ue," + Jogador.GetNomeJogador()
-                + " você não vai?”");
+        System.out.print("\nEu permaneço sentado em minha cadeira,Peter pergunta ``ue," + Jogador.GetNomeJogador()
+                + " você não vai?´´");
 
         boolean saiu = false;
 
@@ -216,7 +216,7 @@ public class CenaSete {
 
                 case "2":
                     Utils.escrever(
-                            "então eu digo “Certo,conte comigo... nos vamos terminar essa maquina e fazer ela funcionar !!!”");
+                            "então eu digo ``Certo,conte comigo... nos vamos terminar essa maquina e fazer ela funcionar !!!´´");
                     apoiarHugh();
                     saiu = true;
                     break;
@@ -229,7 +229,7 @@ public class CenaSete {
     private static void irComOsRapazes() {
 
         Utils.escrever(
-                "Me levanto eu vou com o pessoal, chegando lá, nos encontramos uns soldados segurando Alan e o comandante   falando que Alan está demitido por sua maquina ser inútil, então hugh diz “ se ele está demitido ...então eu estou fora” e todos o acompanham dizendo a mesma coisa");
+                "Me levanto eu vou com o pessoal, chegando lá, nos encontramos uns soldados segurando Alan e o comandante   falando que Alan está demitido por sua maquina ser inútil, então hugh diz `` se ele está demitido ...então eu estou fora´´ e todos o acompanham dizendo a mesma coisa");
 
         boolean saiu = false;
 
@@ -263,7 +263,7 @@ public class CenaSete {
 
     private static void apoiarHugh() {
         Utils.escrever(
-                "Eu digo  eu “tmb estou fora... bom se ele sair todos nós vamos juntos, você ira demitir todos nós, sabendo que você nunca vai encontrar um time de gênios q nem o nosso?”, então o comandante olha para nos com cara de bravo e diz ...”Então está certo... vocês tem um mês para me entregar essa maquina funcionando, caso contrario ...estão todos demitidos”... todos nós acenamos com a cabeça dizendo que sim... então ele vai em bora, e como se tivéssemos  ensaiado todos soltamos um suspiro de alivio ");
+                "Eu digo  eu ``tmb estou fora... bom se ele sair todos nós vamos juntos, você ira demitir todos nós, sabendo que você nunca vai encontrar um time de gênios q nem o nosso?´´, então o comandante olha para nos com cara de bravo e diz ...´´Então está certo... vocês tem um mês para me entregar essa maquina funcionando, caso contrario ...estão todos demitidos´´... todos nós acenamos com a cabeça dizendo que sim... então ele vai em bora, e como se tivéssemos  ensaiado todos soltamos um suspiro de alivio ");
         CenaOito.initCenaOito();
     }
 }

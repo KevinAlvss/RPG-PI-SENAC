@@ -37,7 +37,7 @@ public class CenaTres {
 
     private static void comprarJornal() {
         Utils.escrever(
-                "Após ir em direção a padaria vejo um garoto com alguns jornais com notas diárias da guerra e economia, e então comprei um para ler enquanto comia. Chegando a padaria eu peço o de sempre, ovos com bacon e um suco de laranja, após a garçonete levar meu pedido a cozinha eu começo a ler o jornal e me deparo com um anúncio sobre um emprego aonde dizia “Se você conseguir resolver essas palavras cruzadas em menos de 10 minutos ligue para ..... para uma ótima oportunidade de emprego”.");
+                "Após ir em direção a padaria vejo um garoto com alguns jornais com notas diárias da guerra e economia, e então comprei um para ler enquanto comia. Chegando a padaria eu peço o de sempre, ovos com bacon e um suco de laranja, após a garçonete levar meu pedido a cozinha eu começo a ler o jornal e me deparo com um anúncio sobre um emprego aonde dizia ``Se você conseguir resolver essas palavras cruzadas em menos de 10 minutos ligue para ..... para uma ótima oportunidade de emprego´´.");
 
         boolean saiu = false;
 

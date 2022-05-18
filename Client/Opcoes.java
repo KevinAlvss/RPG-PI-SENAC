@@ -20,12 +20,14 @@ public class Opcoes {
     }
 
     public static void creditos() {
-        Utils.escrever("Créditos");
-        Utils.escrever("Kevin");
-        Utils.escrever("Affonso");
-        Utils.escrever("Raian");
-        Utils.escrever("Nathalia");
-        Utils.escrever("Vyviane");
+        Utils.escrever("Créditos:");
+
+        Utils.escreverNaoPular("Jogo inspirado no filme: Jogo da imitação");
+        Utils.escreverNaoPular("Affonso");
+        Utils.escreverNaoPular("Kevin");
+        Utils.escreverNaoPular("Nathalia");
+        Utils.escreverNaoPular("Raian");
+        Utils.escreverNaoPular("Vyviane");
     }
 
     public static void sairDoJogo() {

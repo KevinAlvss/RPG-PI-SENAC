@@ -17,7 +17,7 @@ public class CenaQuatro {
                         + "\n....\n"
                         + "\n*som de metal*\n"
                         + "\nParece que alguém mexeu na minha caixa de correios, então decido ir ate lá ver o que era.\n"
-                        + "\nO carteiro acabou de sair da frente de minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era uma carta que estava escrito “Oportunidade de emprego” que deduzi ser aquela do jornal.");
+                        + "\nO carteiro acabou de sair da frente de minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era uma carta que estava escrito ``Oportunidade de emprego´´ que deduzi ser aquela do jornal.");
 
         boolean saiu = false;
 
@@ -266,7 +266,7 @@ public class CenaQuatro {
 
     private static void apresentarAlan() {
         Utils.escrever(
-                "Disse ao Sr.George que conheço um rapaz chamado Alan Turing que é muito inteligente e que seria capaz de suprir suas expectativas, e que ele era um tanto quanto excêntrico mas que era uma mente de ouro. Ele pega um pequeno caderninho e anota o nome, e diz “Muito obrigado filho estou feliz que você esteja seguindo seu próprio caminho”... E então nos despedimos e eu vou a padaria comer algo. Eu peço o de sempre e após comer eu fico um tempo conversando com a garçonete.... Por volta das 11:40 volto ansioso para casa e me arrumo e 13:20 eu saio de casa e vou andando ate a prefeitura... Ao chegar lá, mostro a carta que recebi e eles me levam a uma sala onde tem vários rapazes mas antes mesmo que eu possa me sentar em uma carteira entra Alan na sala, e vai à frente da sala e diz “Rapazes, por motivos pessoais está prova não irá mais acontecer... Me desculpem pelo ocorrido e peço para que voltem para suas casas e sigam suas vidas.”");
+                "Disse ao Sr.George que conheço um rapaz chamado Alan Turing que é muito inteligente e que seria capaz de suprir suas expectativas, e que ele era um tanto quanto excêntrico mas que era uma mente de ouro. Ele pega um pequeno caderninho e anota o nome, e diz ``Muito obrigado filho estou feliz que você esteja seguindo seu próprio caminho´´... E então nos despedimos e eu vou a padaria comer algo. Eu peço o de sempre e após comer eu fico um tempo conversando com a garçonete.... Por volta das 11:40 volto ansioso para casa e me arrumo e 13:20 eu saio de casa e vou andando ate a prefeitura... Ao chegar lá, mostro a carta que recebi e eles me levam a uma sala onde tem vários rapazes mas antes mesmo que eu possa me sentar em uma carteira entra Alan na sala, e vai à frente da sala e diz ``Rapazes, por motivos pessoais está prova não irá mais acontecer... Me desculpem pelo ocorrido e peço para que voltem para suas casas e sigam suas vidas.´´");
         Utils.escrever(
                 "Após isso fui conversar com Alan e ele me disse que um senhor chamado George Orwell o chamou para uma oportunidade em outro país, sabendo que a vida estava difícil na Inglaterra decidiu largar tudo e ir para lá, pois não tinha mais nada a perder e Alan me agradeceu pela recomendação.\n"
                         + "\nE eu fiquei um tanto quanto confuso com aquilo tudo e muito desconcertado ao mesmo tempo, pois perdi duas oportunidades de uma vez só.\n"
@@ -279,7 +279,7 @@ public class CenaQuatro {
 
     private static void naoApresentarNinguem() {
         Utils.escrever(
-                "Digo que não conheço ninguém para recomendar, ele agradece e nos despedimos, desejo uma boa viagem à ele, e ele diz “Garoto, estou triste por você não ir comigo, porém muito feliz que esteja seguindo seu próprio caminho, atá mais.”, e então sigo até à padaria. Peço o de sempre e após comer, fiquei por lá conversando com a atendente. Até que olhei para o relógio e já eram 11:40, então me despedi da garçonete e fui correndo para casa me arrumar.");
+                "Digo que não conheço ninguém para recomendar, ele agradece e nos despedimos, desejo uma boa viagem à ele, e ele diz ``Garoto, estou triste por você não ir comigo, porém muito feliz que esteja seguindo seu próprio caminho, atá mais.´´, e então sigo até à padaria. Peço o de sempre e após comer, fiquei por lá conversando com a atendente. Até que olhei para o relógio e já eram 11:40, então me despedi da garçonete e fui correndo para casa me arrumar.");
 
         indoAPrefeitura();
     }
