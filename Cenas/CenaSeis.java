@@ -10,7 +10,7 @@ public class CenaSeis {
   static Scanner sc = new Scanner(System.in);
 
   public static void initCenaSeis() {
-
+    Utils.escrever("6°CENA");
     Utils.escrever(
         "Apos as explicações eles nos mandaram de volta para casa para arrumarmos as malas,"
             + " pois íamos a algum lugar secreto que não nos contaram..."

@@ -8,6 +8,7 @@ public class CenaDois {
     static Scanner sc = new Scanner(System.in);
 
     public static void initCenaDois() {
+        Utils.escrever("2°CENA");
         Utils.escrever("Uma semana depois...");
         Utils.escrever(
                 "Após mais um dia de trabalho eu decido ir dormir... zzz... zzz... zzz... E percebo que estou sonhando com o dia em que conheci o Alan. Eu estava sentado no refeitório da escola junto com o meu primo Christopher e vejo um garoto separando os alimentos por cores... O Christopher então, decide ir ao patio, quando de repente 5 garotos jogam o prato de comida de Alan para cima e começam a zombar com ele.");

@@ -14,6 +14,7 @@ public class CenaCinco {
     static String respostaEscolha;
 
     public static void initCenaCinco() {
+        Utils.escrever("5°CENA");
 
         Utils.escrever("\nApós mais ou menos uns 20 minutos, Alan começa a falar sobre a prova que iremos fazer... e assim q ele começa a falar uma mulher entra na sala, mas o guarda na porta não ah deixa entrar e sentar, mesmo ela dizendo que ela tinha recebido a carta, Alan vai até eles e pede para moça se sentar pera ele continuar a explicação da prova....\n"
                         + "\nEntão ele diz: ``Senhores e senhora, vocês têm 6 minutos para completar as tarefas em sua frente, 5 questoes, 2 pontos cada, vocês precisam no monimo de 9 pontos para passar...´´.\n"

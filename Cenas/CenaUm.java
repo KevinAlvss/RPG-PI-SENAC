@@ -7,8 +7,9 @@ import Client.Jogador;
 public class CenaUm {
 
     static Scanner sc = new Scanner(System.in);
-
+    
     public static void initCenaUm() {
+        Utils.escrever("1°CENA");
         Utils.escrever(
                 "Eu sou apenas um jovem e o mundo já está em guerra, e não é uma guerra qualquer, é a segunda guerra mundial, todos os meus amigos foram para o campo de batalha, e eu aqui continuo trabalhando como matemático, sinto que a cada dia eu deixo de contribuir para o meu país, talvez eu tenha nascido na época errada, mas eu sei que através dos meus conhecimentos eu posso vencer essa guerra.... e essa é a minha história");
         Utils.escrever(

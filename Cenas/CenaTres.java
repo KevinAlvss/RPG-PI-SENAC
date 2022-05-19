@@ -8,6 +8,7 @@ public class CenaTres {
     static Scanner sc = new Scanner(System.in);
 
     public static void initCenaTres() {
+        Utils.escrever("3°CENA");
         Utils.escrever(
                 "Após o sonho que eu nem chamaria de sonho e sim de flashback, nossa eu nem lembrava do que tinha acontecido aquele dia, mas bom tenho que fazer minhas coisas. Eu me levanto e vou fazer minha rotina matinal, escovo os dentes, tomo um banho, troco de roupa e vou a cozinha para tomar um café da manhã, porém quando chego na cozinha percebo que não tinha quase nada para comer, eu não havia feito compras essa semana pois o dinheiro estava curto. Percebo que tambem estou muito atrasado para o trabalho.");
 

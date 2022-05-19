@@ -11,6 +11,7 @@ public class CenaQuatro {
     static Scanner sc = new Scanner(System.in);
 
     public static void initCenaQuatro() {
+        Utils.escrever("4°CENA");
         Utils.escrever(
                 "A ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido... Não necessariamente pelo atraso, mas sim por falta de recursos... Faltava dinheiro... Faltava pessoas....  E o dono do escritório aonde trabalho dispensou todos, pois já não havia mais condições de manter os funcionários, agora minha única chace é aquela carta....\n"
                         + "\n....\n"
