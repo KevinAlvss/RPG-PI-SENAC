@@ -12,9 +12,8 @@ public class CenaQuatro {
 
     public static void initCenaQuatro() {
         Utils.escrever(
-                "A ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido... Não necessariamente pelo atraso, mas sim por falta de recursos... Faltava dinheiro... Faltava pessoas....  E o dono do escritório aonde trabalho dispensou todos, pois já não havia mais condições de manter os funcionários, agora minha única chace é aquela carta....\n"
-                        + "\n....\n"
-                        + "\n....\n"
+                "Não me sobraram unhas para roer,a ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido... Não necessariamente pelo atraso, mas sim por falta de recursos... Faltava dinheiro... Faltava pessoas....  E o dono do escritório aonde trabalho dispensou todos, pois já não havia mais condições de manter os funcionários, agora minha única chace é aquela carta....\n"
+                        + "\n          \n"
                         + "\n*som de metal*\n"
                         + "\nParece que alguém mexeu na minha caixa de correios, então decido ir ate lá ver o que era.\n"
                         + "\nO carteiro acabou de sair da frente de minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era uma carta que estava escrito ``Oportunidade de emprego´´ que deduzi ser aquela do jornal.");
@@ -86,15 +85,17 @@ public class CenaQuatro {
     }
 
     private static void aceitarOportunidade1() {
-        Utils.escrever("Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
+        Utils.escrever(
+                "Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
                         + "\nEle chega até mim e me convida para entrarmos em nosso antigo escritório... Lá ele me explica com detalhes sobre o negócio que o irmão dele estava envolvido com o Sr.Roberto e que lá iriamos iniciar novas vidas, porém com nomes diferentes, pois em tempos de guerra nós deveríamos ter nos juntado ao exército.... O Sr.George me diz que iríamos sair dali uma semana, esse era o tempo que eu tinha para vender todos meus pertences que iriam ficar para trás....\n"
                         + "\nConsegui. Foi difícil, porém eu consegui vender tudo que tinha e em tempo de guerra é dificil lucrar com isso.... A partir daqui serão pessoas novas, país novo, idioma novo, vida nova.");
 
-        Utils.escrever("A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
+        Utils.escrever(
+                "A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
 
         Utils.escrever("Fim de jogo.");
 
-        FimDeJogo.creditosFimDeJogo(); 
+        FimDeJogo.creditosFimDeJogo();
     }
 
     private static void aceitarOportunidade2() {
