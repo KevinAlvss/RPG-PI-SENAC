@@ -49,7 +49,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - Decido ir olhar os papeis\n2 - Continuar andando ");
             String decisao = sc.next();
 
@@ -75,7 +75,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - Analisar as plantas da maquina\n2 - Continuar andando ");
             String decisao = sc.next();
 
@@ -117,7 +117,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - Dizer que não é nada de mais \n2 - Sugerir aos rapazes para irmos lá  o ");
 
             String decisao = sc.next();
@@ -145,7 +145,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - ir junto\n2 - Não ir");
 
             String decisao = sc.next();
@@ -174,7 +174,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - ir junto\n2 - Não ir");
 
             String decisao = sc.next();
@@ -203,7 +203,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - Apoiar o comandante\n2 - Apoiar o pessoal ");
 
             String decisao = sc.next();
@@ -233,7 +233,7 @@ public class CenaSete {
 
         boolean saiu = false;
 
-        while (!saiu) {
+        while (saiu) {
             Utils.escrever("1 - Apoiar o comandante\n2 - Apoiar Hugh ");
 
             String decisao = sc.next();
@@ -258,7 +258,7 @@ public class CenaSete {
         Utils.escrever(
                 "eu digo que concordo com o comandante, que a maquina é inútil e que estamos perdendo tempo.... então todos os rapazes me olham com um olhar de decepcionado e dizem... então tudo bem... se você não tem fé no projeto , então não temos fé em você também, pedimos encarecidamente que você se retire e vá para sua casa, como todos... estevam de acordo com isso eu apenas aceitei...fui ao meu dormitório, peguei minhas coisas e voltei parar cara...  ");
         Utils.escrever("Fim de Jogo");
-        FimDeJogo.creditosFimDeJogo();    
+        FimDeJogo.creditosFimDeJogo();
     }
 
     private static void apoiarHugh() {
