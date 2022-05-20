@@ -4,6 +4,7 @@ import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
 import Client.Menu;
+import Client.Opcoes;
 import Client.FimDeJogo;
 
 public class CenaQuatro {
@@ -31,7 +32,8 @@ public class CenaQuatro {
                     cartaChefe();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -53,7 +55,8 @@ public class CenaQuatro {
                     cartaAnuncio();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -79,7 +82,8 @@ public class CenaQuatro {
                     aceitarOportunidade2();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -123,7 +127,8 @@ public class CenaQuatro {
                 case "2":
                     ficarEmCasa();
                     saiu = true;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -149,7 +154,8 @@ public class CenaQuatro {
                     ignorarEle();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -190,7 +196,8 @@ public class CenaQuatro {
                     recusarNovamente();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -233,7 +240,8 @@ public class CenaQuatro {
                     naoApresentarNinguem();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }

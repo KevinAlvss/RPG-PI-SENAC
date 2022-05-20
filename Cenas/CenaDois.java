@@ -1,6 +1,8 @@
 package Cenas;
 
 import java.util.Scanner;
+
+import Client.Opcoes;
 import Utils.Utils;
 
 public class CenaDois {
@@ -32,7 +34,8 @@ public class CenaDois {
                     naoFacoNada();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -62,7 +65,8 @@ public class CenaDois {
                         "O Christopher chega e chuta os Valentões pra longe salvando Alan");
                 Utils.escrever(
                         "Por um piscar de olhos volto daquele flashback e pego no sono..");
-            default:
+            default: 
+                    Opcoes.mensagemPadraoNaoReconhecido();
                 break;
         }
         

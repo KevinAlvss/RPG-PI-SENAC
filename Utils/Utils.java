@@ -21,7 +21,7 @@ public class Utils {
         try {
             System.out.print("\n");
             for (int i = 0; i < conteudo.length(); i++) {
-                Thread.sleep(0);
+                Thread.sleep(Configuracoes.GetVelocidadeDeTexto());
                 System.out.print(conteudo.charAt(i));
             }
             System.out.print("\n");

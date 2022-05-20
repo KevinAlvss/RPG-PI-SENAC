@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
+import Client.Opcoes;
 import Client.FimDeJogo;
 
 public class CenaSeis {
@@ -34,7 +35,8 @@ public class CenaSeis {
           naoDizerNada();
           saiu = true;
           break;
-        default:
+        default: 
+                Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -73,7 +75,8 @@ public class CenaSeis {
           dizerNao();
           saiu = true;
           break;
-        default:
+        default: 
+                Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -118,7 +121,8 @@ public class CenaSeis {
           Utils.escrever("A sala fica em silencio por alguns segundos");
           saiu = true;
           break;
-        default:
+        default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -159,7 +163,8 @@ public class CenaSeis {
           FimDeJogo.creditosFimDeJogo();
           saiu = true;
           break;
-        default:
+        default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }

@@ -28,7 +28,8 @@ public class CenaSete {
                     naoDizerNada();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
 
@@ -63,7 +64,8 @@ public class CenaSete {
                     continuarAndandoOuIrComEles();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -89,7 +91,8 @@ public class CenaSete {
                     continuarAndandoOuIrComEles();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -132,7 +135,8 @@ public class CenaSete {
                     naoIrComOsRapazes();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -160,7 +164,8 @@ public class CenaSete {
                     naoIrComOsRapazesDois();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -189,7 +194,8 @@ public class CenaSete {
                     naoIrDois();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -220,7 +226,8 @@ public class CenaSete {
                     CenaOito.initCenaOito();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -248,7 +255,8 @@ public class CenaSete {
                     apoiarHugh();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }

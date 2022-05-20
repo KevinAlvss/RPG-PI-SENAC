@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
+import Client.Opcoes;
 
 public class CenaUm {
 
@@ -37,7 +38,8 @@ public class CenaUm {
                     perguntarOqueEstaAcontecendo();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -71,7 +73,8 @@ public class CenaUm {
                     perguntarOqueEstaAcontecendo();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -93,7 +96,8 @@ public class CenaUm {
                     explicarAoPolicialSuaRelacaoComAlan();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -125,7 +129,8 @@ public class CenaUm {
                     saiu = true;
                     break;
 
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -149,7 +154,8 @@ public class CenaUm {
                     AlanResponde();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -173,7 +179,8 @@ public class CenaUm {
                     irParaCasa();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -201,7 +208,8 @@ public class CenaUm {
                     saiu = true;
                     break;
 
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }

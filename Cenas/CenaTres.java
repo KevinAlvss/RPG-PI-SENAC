@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.FimDeJogo;
+import Client.Opcoes;
 
 public class CenaTres {
 
@@ -30,7 +31,8 @@ public class CenaTres {
                     sairComPressa();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -58,7 +60,8 @@ public class CenaTres {
                     sairComPressa();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -86,7 +89,8 @@ public class CenaTres {
                     naoLigarParaNumero();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -122,7 +126,8 @@ public class CenaTres {
                     sairComPressa();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }

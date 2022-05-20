@@ -33,7 +33,8 @@ public class CenaOito {
                     naoComentarSobre();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -58,7 +59,8 @@ public class CenaOito {
                     irParaDormitorio();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -109,7 +111,8 @@ public class CenaOito {
                     olharParaDireita();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
@@ -154,7 +157,8 @@ public class CenaOito {
                     ajudarPrevenirAtaque();
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
