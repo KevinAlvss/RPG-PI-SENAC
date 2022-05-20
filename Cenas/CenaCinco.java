@@ -64,12 +64,16 @@ public class CenaCinco {
         }
 
         Utils.escrever(
-                "\n3) Duas tartarugas estavam juntas e começaram a caminhar em linha reta em direção a um lago distante. A primeira tartaruga percorreu 30 metros por dia e demorou 16 dias para chegar ao lago. A segunda tartaruga só conseguiu percorrer 20 metros por dia e, portanto, chegou ao lago alguns dias depois da primeira. Quando a primeira tartaruga chegou ao lago, o número de dias que ela teve que esperar para a segunda tartaruga chegar foi:\n");
+                "3°Em um sistema de codificação, AB representa os algarismos do dia do nascimento de uma pessoa e CD os algarismos de seu mês de nascimento. Nesse sistema, a data trinta de julho, por exemplo, corresponderia a:"
+                +"A igual a 3 espaço espaço espaço espaço espaço B igual a 0 espaço espaço espaço espaço espaço C igual a 0 espaço espaço espaço espaço espaço D igual a 7"
+                +"Admita uma pessoa cuja data de nascimento obedeça à seguinte condição:\n"
+                +"A mais B mais C mais D igual a 20\n"
+                +"O mês de nascimento dessa pessoa é:\n");
 
-        Utils.escrever("a) 8\nb) 9\nc) 10\nd) 12\ne) 15");
+        Utils.escrever("a) agosto\nb) setembro\nc) outubro\nd) janeiro\ne) novembro");
         respostaEscolha = sc.next();
 
-        if (respostaEscolha.equals("a") || respostaEscolha.equals("A")) {
+        if (respostaEscolha.equals("b") || respostaEscolha.equals("B")) {
             pontos += 2;
         }
 
