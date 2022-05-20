@@ -31,11 +31,11 @@ public class Opcoes {
     }
 
     public static void sairDoJogo() {
-        Utils.escrever("\nFoi um prazer jogar com vc...\n");
+        Utils.escrever("\nFoi um prazer jogar com vc...");
     }
 
     public static void mensagemPadraoNaoReconhecido() {
-        Utils.escrever("\nHmm... me parece que isso não existe\n");
+        Utils.escrever("\nHmm... me parece que esse comando não existe :/ \n");
     }
 
     public static void configuracoes() {
@@ -52,6 +52,7 @@ public class Opcoes {
                     saiu = true;
                     break;
                 default:
+                    Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
 
@@ -62,62 +63,63 @@ public class Opcoes {
     public static void SelecionarCena() {
 
         boolean saiu = false;
-
-        Utils.escrever(
-                "1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
-        String decisao = sc.next();
-
         while (!saiu) {
-            switch (decisao) {
-                case "1":
-                    CenaUm.initCenaUm();
-                    saiu = true;
-                    break;
+            Utils.escrever(
+                    "1 - 1° Cena\n2 - 2° Cena\n3 - 3° Cena\n4 - 4° Cena\n5 - 5° Cena\n6 - 6° Cena\n7 - 7° Cena\n8 - 8° Cena ");
+            String decisao = sc.next();
 
-                case "2":
-                    Jogador.DefinirNomeJogador();
-                    CenaDois.initCenaDois();
-                    saiu = true;
-                    break;
+            
+                switch (decisao) {
+                    case "1":
+                        CenaUm.initCenaUm();
+                        saiu = true;
+                        break;
 
-                case "3":
-                    Jogador.DefinirNomeJogador();
-                    CenaTres.initCenaTres();
-                    saiu = true;
-                    break;
+                    case "2":
+                        Jogador.DefinirNomeJogador();
+                        CenaDois.initCenaDois();
+                        saiu = true;
+                        break;
 
-                case "4":
-                    Jogador.DefinirNomeJogador();
-                    CenaQuatro.initCenaQuatro();
-                    saiu = true;
-                    break;
+                    case "3":
+                        Jogador.DefinirNomeJogador();
+                        CenaTres.initCenaTres();
+                        saiu = true;
+                        break;
 
-                case "5":
-                    Jogador.DefinirNomeJogador();
-                    CenaCinco.initCenaCinco();
-                    saiu = true;
-                    break;
+                    case "4":
+                        Jogador.DefinirNomeJogador();
+                        CenaQuatro.initCenaQuatro();
+                        saiu = true;
+                        break;
 
-                case "6":
-                    Jogador.DefinirNomeJogador();
-                    CenaSeis.initCenaSeis();
-                    saiu = true;
-                    break;
+                    case "5":
+                        Jogador.DefinirNomeJogador();
+                        CenaCinco.initCenaCinco();
+                        saiu = true;
+                        break;
 
-                case "7":
-                    Jogador.DefinirNomeJogador();
-                    CenaSete.initCenaSete();
-                    saiu = true;
-                    break;
+                    case "6":
+                        Jogador.DefinirNomeJogador();
+                        CenaSeis.initCenaSeis();
+                        saiu = true;
+                        break;
 
-                case "8":
-                    Jogador.DefinirNomeJogador();
-                    CenaOito.initCenaOito();
-                    saiu = true;
-                    break;
+                    case "7":
+                        Jogador.DefinirNomeJogador();
+                        CenaSete.initCenaSete();
+                        saiu = true;
+                        break;
 
-                default:
-                    break;
+                    case "8":
+                        Jogador.DefinirNomeJogador();
+                        CenaOito.initCenaOito();
+                        saiu = true;
+                        break;
+
+                    default:
+
+                        break;
             }
         }
     }

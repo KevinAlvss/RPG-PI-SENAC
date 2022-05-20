@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.Jogador;
+import Client.Opcoes;
 import Client.FimDeJogo;
 
 public class CenaSeis {
@@ -10,11 +11,11 @@ public class CenaSeis {
   static Scanner sc = new Scanner(System.in);
 
   public static void initCenaSeis() {
-
+    Utils.escrever("6°CENA");
     Utils.escrever(
-        "Apos as explicações eles nos mandaram de volta para casa para arrumarmos as malas,"
+        "Ainda não tinha caído minha ficha sobre tudo que aconteceu, eles nos mandaram de volta para casa para arrumarmos as malas,"
             + " pois íamos a algum lugar secreto que não nos contaram..."
-            + " 1Em casa arrumei minhas malas e voltei para o predio aonde fizemos a prova, la"
+            + " voltei para o predio aonde fizemos a prova, la"
             + " havia um carro me esperando que me levou para algum lugar,"
             + "parecia uma faculdade misturado com uma base militar , onde encontrei apenas jack");
 
@@ -34,7 +35,8 @@ public class CenaSeis {
           naoDizerNada();
           saiu = true;
           break;
-        default:
+        default: 
+                Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -73,7 +75,8 @@ public class CenaSeis {
           dizerNao();
           saiu = true;
           break;
-        default:
+        default: 
+                Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -85,20 +88,20 @@ public class CenaSeis {
 
   private static void dizerSim() {
     Utils.escrever(
-        "Eu disse a hugh 'Provavelmente ela não vira , pois os pais dela"
-            + " não gostam que ela se envolva em um ambiente com muitos homens'");
+        "Eu disse a hugh 'que Provavelmente ela não vira , pois os pais"
+            + " desaprovavão um ambiente repleto homens, dos quais não se sabe a inteção'");
     dizerNao();
   }
 
   private static void dizerNao() {
-    Utils.escrever("Então tá, vemos lá, depois o pessoal resolve isso"
+    Utils.escrever("Então tá, vamos ao que insteressa"
         + " Hugh nos leva a uma sala aonde iremos desempenhar nosso trabalho"
         + " e diz que é lá aonde passaremos todo nossos dias até decifrarmos a maldita maquina alemã....");
     decisaoHugh();
   }
 
   private static void decisaoHugh() {
-    Utils.escrever("Em um certo dia estavamos terminando de decifrar os codigos nazistas ate que um relogio toca  e"
+    Utils.escrever("Em um certo dia estavamos terminando de decifrar os codigos nazistas ate que um relogio toca e"
         + " e imediatamente Hugh joga todos os papeis no chão com muita raiva,");
 
     boolean saiu = false;
@@ -118,7 +121,8 @@ public class CenaSeis {
           Utils.escrever("A sala fica em silencio por alguns segundos");
           saiu = true;
           break;
-        default:
+        default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }
@@ -141,25 +145,26 @@ public class CenaSeis {
         case "1":
           Utils.escrever(
               "Fui atrás de Hugh pois ele parecia estar fora de si e poderia fazer alguma besteira, quando cheguei ao galpão Hugh"
-                  + " estava prestes a arremessar um copo em direção de alan mas eu intervi e segurei o braço dele fazendo com que o copo vá para outra"
-                  + " direção, Hugh diz ``VOCÊ E ESSA MAQUINA IDIOTA,VOCÊ FICA AI BRINCANDO DE CONSTRUIR AO INVES DE AJUDAR!!!! ESTOU CANSADO DESSA MERDA!!!´´"
+                  + " estava prestes a arremessar um copo na direção de Alan mas eu intervi e segurei o braço dele fazendo com que o copo vá para outra"
+                  + " direção, Hugh diz ``VOCÊ E ESSA MAQUINA IDIOTA, VOCÊ FICA AI BRINCANDO DE CONSTRUIR AO INVES DE AJUDAR!!!! ESTOU CANSADO DESSA MERDA!!!´´"
                   + " Peter concorda com Huhg e diz ``Ele tem razão Alan , estamos perdendo muito tempo com isso´´"
-                  + " Alan diz ``NÃO É PERCA DE TEMPO , MINHA MAQUINA VAI FUNCIONAR SIM´´, como o clima já estava bem tenso decidi não dizer nada");
+                  + " Alan diz ``NÃO É PERCA DE TEMPO , MINHA MAQUINA VAI FUNCIONAR ´´, como o clima já estava bem tenso decidi não dizer nada");
           CenaSete.initCenaSete();
           saiu = true;
           break;
         case "2":
           Utils.escrever(
-              "Pergunta aos outros poquer ele ficou tão bravos e Peter me responde 'Des de que começamos ele não vai com a cara"
-                  + " de Alan parecem ate gato e rato...' John responde 'O dia que eles fizerem as pazes essa guerra acaba'... ao fim da frase de john"
+              "Perguntei aos outros poquer ele ficou tão irritado e Peter me responde 'Desde que começamos ele não vai com a cara"
+                  + " de Alan parecem  gato e rato...' John responde 'O dia que eles fizerem as pazes essa guerra acaba'... ao fim da frase de john"
                   + " nos escutamos um alto grito e um estrondo e fomos até o galpão , lá vemos hugh estagnado olhando para corpo de Alan no chão desacordado"
                   + " com estilhaços de vidro em seu rosto, cheguei próximo ao corpo de Alan e tentei o acordar... quando coloquei o dedo em sua veio do pescoço"
-                  + " e não senti pulsação .... Alan havia batido a nuca na quina da maquina e veio a falecer.... e o projeto todo foi arquivado pelo cabeça do projeto"
+                  + " e não senti pulsação .... Alan havia batido a nuca na quina da maquina e morreu....  o projeto todo foi arquivado pelo cabeça do projeto"
                   + " ter morrido e um dos membros estar foragido por assassinato.");
-                  FimDeJogo.creditosFimDeJogo();    
-                  saiu = true;
+          FimDeJogo.creditosFimDeJogo();
+          saiu = true;
           break;
-        default:
+        default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
           break;
       }
     }

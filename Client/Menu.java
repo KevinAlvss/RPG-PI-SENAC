@@ -10,7 +10,8 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
 
         while (!saiu) {
-            Utils.escrever("\n1 - Jogar\n2 - Instruções\n3 - Selecionsar Cena\n4 - Configurações \n5 - Créditos\n6 - Sair\n");
+            Utils.escrever(
+                    "\n1 - Jogar\n2 - Instruções\n3 - Selecionar Cena\n4 - Configurações \n5 - Créditos\n6 - Sair\n");
 
             String opcao = sc.next();
 

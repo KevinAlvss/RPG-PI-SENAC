@@ -43,7 +43,8 @@ public class Configuracoes {
                     Utils.escrever("\nVelocidade definida\n");
                     saiu = true;
                     break;
-                default:
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
                     break;
             }
         }
