@@ -122,7 +122,7 @@ public class CenaCinco {
         Utils.escrever( "\nEntão Alan nos chama para dentro da sala novamente e explica, e antes que Alan comece a dizer algo um rapaz chamado Sr.Stewart nos diz ``Meus parabéns sejam bem vindos ao serviço de vossa majestade...Se falarem qualquer coisa que eu dizer aqui, serão executados por traição, mentiram para amigos, família e para qualquer um sobre o que fazem´´\n "
                         + "\nJoan pergunta: ``e o que vamos fazer?´´\n"
                         + "\nAlan nos diz:\n"
-                        + "\nVamos quebrar um código nazista inquebrável e vencer a guerra, existe uma máquina alemã chamada enigma, aonde ela manda mensagens criptografadas todos os dias para a suas tropas, nós conseguimos a interceptá-las e até temos um exemplar na máquina, porém o problema é essa criptografia tem uma chave que muda todo dia, então mesmo que nós conseguiremos decifra-las nós não teríamos tempo para avisar aos aliando antes que eles mudassem a chave novamente, então nossa missão e descobrir como obter essa chave\n");
+                        + "\n``Vamos quebrar um código nazista inquebrável e vencer a guerra, existe uma máquina alemã chamada enigma, aonde ela manda mensagens criptografadas todos os dias para a suas tropas, nós conseguimos a interceptá-las e até temos um exemplar na máquina, porém o problema é essa criptografia tem uma chave que muda todo dia, então mesmo que nós conseguiremos decifra-las nós não teríamos tempo para avisar aos aliando antes que eles mudassem a chave novamente, então nossa missão e descobrir como obter essa chave´´\n");
    
         CenaSeis.initCenaSeis();
     }

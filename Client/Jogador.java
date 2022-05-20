@@ -8,6 +8,9 @@ public class Jogador {
     private static String nomeJogador;
 
     public static String GetNomeJogador() {
+        if(nomeJogador == null || nomeJogador == "")
+         nomeJogador = "jogador(a)";
+
         return nomeJogador;
     }
 
