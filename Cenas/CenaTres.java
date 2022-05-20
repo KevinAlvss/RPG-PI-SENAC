@@ -129,7 +129,7 @@ public class CenaTres {
 
     private static void sairComPressa() {
         Utils.escrever(
-                "Saio com pressa, corro para atravessar a rua, quando um som muito estridente de uma ambulância se aproxima em minha direção, quando me dei conta do que estava acontecendo ..... Era tarde de mais para fujir");
+                "Saio com pressa, corro para atravessar a rua, um som muito estridente de uma ambulância se aproxima em minha direção, quando me dei conta do que estava acontecendo ..... Era tarde de mais para fujir");
         Utils.escrever("Descanse em paz, Game Over! \n\n");
 
         FimDeJogo.creditosFimDeJogo();
