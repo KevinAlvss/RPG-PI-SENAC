@@ -12,11 +12,11 @@ public class CenaQuatro {
 
     public static void initCenaQuatro() {
         Utils.escrever(
-                "Não me sobraram unhas para roer,a ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido... Não necessariamente pelo atraso, mas sim por falta de recursos... Faltava dinheiro... Faltava pessoas....  E o dono do escritório aonde trabalho dispensou todos, pois já não havia mais condições de manter os funcionários, agora minha única chace é aquela carta....\n"
+                "Não me sobrarão unhas para roer, a ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido, Pelo atraso deve estar pensando, Mas não. A empresa faliu te disse que as coisas não estavam legal.\n"
                         + "\n          \n"
                         + "\n*som de metal*\n"
                         + "\nParece que alguém mexeu na minha caixa de correios, então decido ir ate lá ver o que era.\n"
-                        + "\nO carteiro acabou de sair da frente de minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era uma carta que estava escrito ``Oportunidade de emprego´´ que deduzi ser aquela do jornal.");
+                        + "\nO carteiro acabou de sair da frente da minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era misteriosa não havia nada escrito deduzi ser aquela do jornal.");
 
         boolean saiu = false;
 
@@ -38,7 +38,7 @@ public class CenaQuatro {
 
     private static void cartaChefe() {
         Utils.escrever("'Olá caro(a) " + Jogador.GetNomeJogador() + ", Como vai?\n"
-                + "\nSei que aquilo foi muito repentino, peço minhas sinceras desculpas pelo o que aconteceu, mas infelizmente eu não estava mais conseguindo sustentar as coisas, até na minha casa a situação está muito difícil. Como eu te considero uma pessoa de ouro eu venho te oferecer uma oportunidade, uma passagem só de ida para o Brazil, meu irmão foi para lá a alguns anos e conhece um rapaz chamado Roberto Marinho que está com uma ideia de um novo negócio por lá e como você é uma pessoa de ouro decidi que te levaria comigo nessa jornada.... Caso esteja interessado me encontre na frente do nosso antigo escritório amanhã as 14:00Hrs.'");
+                + "\n``Tudo aconteceu repentinamente, peço que aceite minhas sinceras desculpas pelo o que aconteceu,`` Pensei comigo: Será que suas desculpas encheram minha barriga?.. continuei a ler`` Como eu te considero uma pessoa de ouro eu venho te oferecer uma oportunidade, uma passagem só de ida para o Brasil, meu irmão foi para lá a alguns anos e conhece um rapaz chamado Roberto Marinho que está com uma ideia de um novo negócio por lá e como você é uma pessoa de ouro decidi que te levaria comigo nessa jornada.... Caso esteja interessado me encontre na frente do nosso antigo escritório amanhã as 14:00Hrs.'");
 
         boolean saiu = false;
 
