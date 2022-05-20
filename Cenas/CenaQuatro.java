@@ -13,12 +13,11 @@ public class CenaQuatro {
     public static void initCenaQuatro() {
         Utils.escrever("4°CENA");
         Utils.escrever(
-                "A ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido... Não necessariamente pelo atraso, mas sim por falta de recursos... Faltava dinheiro... Faltava pessoas....  E o dono do escritório aonde trabalho dispensou todos, pois já não havia mais condições de manter os funcionários, agora minha única chace é aquela carta....\n"
-                        + "\n....\n"
-                        + "\n....\n"
+                "Não me sobrarão unhas para roer, a ansiedade não poderia ser pior... Já fazem 4 dias que fui demitido, Pelo atraso deve estar pensando, Mas não. A empresa faliu, a guerra tens nos afetado. Te disse que as coisas não estavam legal.\n"
+                        + "\n          \n"
                         + "\n*som de metal*\n"
                         + "\nParece que alguém mexeu na minha caixa de correios, então decido ir ate lá ver o que era.\n"
-                        + "\nO carteiro acabou de sair da frente de minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outro era uma carta que estava escrito ``Oportunidade de emprego´´ que deduzi ser aquela do jornal.");
+                        + "\nO carteiro acabou de sair da frente da minha casa. Então fui ansioso ver e haviam 2 cartas... Uma era do meu antigo chefe e a outra era misteriosa não havia nada escrito, deduzi ser aquela do jornal.");
 
         boolean saiu = false;
 
@@ -40,12 +39,12 @@ public class CenaQuatro {
 
     private static void cartaChefe() {
         Utils.escrever("'Olá caro(a) " + Jogador.GetNomeJogador() + ", Como vai?\n"
-                + "\nSei que aquilo foi muito repentino, peço minhas sinceras desculpas pelo o que aconteceu, mas infelizmente eu não estava mais conseguindo sustentar as coisas, até na minha casa a situação está muito difícil. Como eu te considero uma pessoa de ouro eu venho te oferecer uma oportunidade, uma passagem só de ida para o Brazil, meu irmão foi para lá a alguns anos e conhece um rapaz chamado Roberto Marinho que está com uma ideia de um novo negócio por lá e como você é uma pessoa de ouro decidi que te levaria comigo nessa jornada.... Caso esteja interessado me encontre na frente do nosso antigo escritório amanhã as 14:00Hrs.'");
+                + "\n``Tudo aconteceu tão repentinamente que não pude me explicar, peço que aceite minhas sinceras desculpas pelo o que aconteceu, ``Pensei comigo: Será que suas desculpas encheram minha barriga?.. continuei a ler`` Recebi uma proposta para trabalhar com meu irmão em um novo esquema no Brasil. Como eu te considero uma pessoa de ouro, gostaria de saber se não quer se juntar a mim nessa jornada.... Caso esteja interessado me encontre na frente do nosso antigo escritório amanhã as 14:00Hrs.'");
 
         boolean saiu = false;
 
         while (!saiu) {
-            Utils.escrever("1 - Ler carta de oportunidade de emprego.");
+            Utils.escrever("1 - Ler carta a carta misteriosa.");
 
             String decisao = sc.next();
 
@@ -62,7 +61,7 @@ public class CenaQuatro {
 
     private static void cartaAnuncio() {
         Utils.escrever("'Olá caro(a), " + Jogador.GetNomeJogador() + ".\n"
-                + "\nVenho por meio desta carta lhe informar que você passou em nosso processo seletivo, porém agora temos uma última fase eliminatória, venha amanhã a prefeitura de Richmond as 14:00hrs.'");
+                + "\nVenho por meio desta carta lhe informar que você passou para a última fase eliminatória, venha amanhã a prefeitura de Richmond as 14:00hrs.'");
 
         boolean saiu = false;
 
@@ -87,35 +86,38 @@ public class CenaQuatro {
     }
 
     private static void aceitarOportunidade1() {
-        Utils.escrever("Estou ansioso para conversar com o Sr.George, estava no nosso ponto de encontro as 13:00hrs, uma hora mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
-                        + "\nEle chega até mim e me convida para entrarmos em nosso antigo escritório... Lá ele me explica com detalhes sobre o negócio que o irmão dele estava envolvido com o Sr.Roberto e que lá iriamos iniciar novas vidas, porém com nomes diferentes, pois em tempos de guerra nós deveríamos ter nos juntado ao exército.... O Sr.George me diz que iríamos sair dali uma semana, esse era o tempo que eu tinha para vender todos meus pertences que iriam ficar para trás....\n"
-                        + "\nConsegui. Foi difícil, porém eu consegui vender tudo que tinha e em tempo de guerra é dificil lucrar com isso.... A partir daqui serão pessoas novas, país novo, idioma novo, vida nova.");
+        Utils.escrever(
+                "Cheguei ao nosso ponto de encontro as 13:00h, mais cedo que o combinado. Às 13:30 vejo o Sr.George se aproximando.....\n"
+                        + "\nEle chega até mim e me convida para entrarmos em nosso antigo escritório... Lá ele me explica com detalhes sobre o negócio que o irmão dele e que lá iriamos iniciar novas vidas, porém com nomes diferentes, pois em tempos de guerra nós deveríamos ter nos juntado ao exército.... O Sr.George me diz que iríamos sair dali em uma semana, esse era o tempo que eu tinha para vender todos meus pertences que iriam ficar para trás....\n"
+                        + "\nConsegui. Foi difícil, porém eu consegui vender tudo que tinha e em tempo de guerra é dificil lucrar com isso.... A partir de agora serão pessoas novas, país novo, idioma novo, vida nova.");
 
-        Utils.escrever("A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
+        Utils.escrever(
+                "A guerra acabou em 1955 com a total destruição da Alemanha e o que era o território alemão, agora não passa de um enorme cemitério. Foi uma guerra muito difícil, após as bombas de Hiroshima e Nagasaki.\n Em 45 o império japonês ficou cada vez mais irritado fazendo com que as pesquisas em armas de destruição em massa foram aceleradas, tanto no japão quanto na Alemanha.");
 
         Utils.escrever("Fim de jogo.");
 
-        FimDeJogo.creditosFimDeJogo(); 
+        FimDeJogo.creditosFimDeJogo();
     }
 
     private static void aceitarOportunidade2() {
         Utils.escrever(
-                "Enviei uma carta para o Sr.George agradecendo toda sua consideração e dizendo que eu recusaria a proposta, e disse que não poderia ir, pois estava sentindo que algo maior estava por acontecer...\n"
-                        + "\nEntão fiz o que solicitava na carta, e passei o dia ansioso para ver oque iria acontecer\n"
+                "Enviei uma carta para o Sr.George agradecendo toda sua consideração e dizendo que eu recusaria a proposta, e disse que não poderia ir, estava sentindo que algo maior estava por acontecer...\n"
+                        + "\nEntão fiz o que solicitava na carta, e passei o dia ansioso para ver oque iria acontecer\n a verdade é que eu não queria morrer de fome.."
                         + "\n...\n"
-                        + "\nAcordei as 6 horas da manhã pois eu não aguentava de ansiedade e fui arrumar a casa para me distrair, porém fiquei a todo momento de olhos no relógio.\n"
-                        + "\nJá era por volta das 8:30 e minha barriga gritava por comida, então...");
+                        + "\nAcordei as 7h da manhã, as 8h estava pronto. Um pouco cedo? talvez, mas não conseguia conter meu entusiasmo.\n"
+                        + "\nJá era por volta das 9:30 e minha barriga gritava por comida, então...");
 
         boolean saiu = false;
 
         while (!saiu) {
-            Utils.escrever("1 - Decido ir a padaria comer algo.\n2 - Ficar em casa e procurar algo para comer.");
+            Utils.escrever(
+                    "1 - Decido ir a lanchonete comer algo.\n2 - Ficar em casa a arriscar nos dotes culinários.");
 
             String decisao = sc.next();
 
             switch (decisao) {
                 case "1":
-                    irAPadaria();
+                    irLanchonete();
                     saiu = true;
                     break;
                 case "2":
@@ -127,14 +129,14 @@ public class CenaQuatro {
         }
     }
 
-    private static void irAPadaria() {
+    private static void irLanchonete() {
         Utils.escrever(
-                "Como não havia nada de bom para comer em casa eu decido ir a padaria comer algo, e no caminho eu encontro o Sr.George, que me parecia um tanto quanto preocupado...");
+                "A caminho encontro o Sr.George, que me parecia um tanto quanto preocupado...");
 
         boolean saiu = false;
 
         while (!saiu) {
-            Utils.escrever("1 - Conversar com ele e perguntar o que aconteceu.\n2 - Ignorá-lo e ir para padaria.");
+            Utils.escrever("1 - Conversar com ele e perguntar o que aconteceu.\n2 - Ignorá-lo e ir para lanchonete.");
 
             String decisao = sc.next();
 
@@ -154,7 +156,7 @@ public class CenaQuatro {
     }
 
     private static void ignorarEle() {
-        Utils.escrever("Fui a padaria, pedi o de sempre e após comer voltei para casa.");
+        Utils.escrever("Continuo a caminhar sem arrependimento pela minha escolha");
 
         indoAPrefeitura();
 
@@ -162,34 +164,14 @@ public class CenaQuatro {
 
     private static void ficarEmCasa() {
         Utils.escrever(
-                "Vou até a cozinha e reviro a geladeira e os armário em busca de algo, como esse mês o dinheiro estava curto não comprei muitas coisas, encontrei apenas um pedaço de um sanduíche, um pedaço de queijo e um ovo.");
+                "Vou até a cozinha e reviro a geladeira e os armário em busca de algo, como esse mês o dinheiro tava curto então fui comendo um sanduiche de 200 anos que achei na geladeira..");
 
-        boolean saiu = false;
-
-        while (!saiu) {
-            Utils.escrever(
-                    "1 - Decido ir a padaria comer algo.\n2 - Comer o sanduiche e preparar algo com o ovo e o queijo.");
-
-            String decisao = sc.next();
-
-            switch (decisao) {
-                case "1":
-                    irAPadaria();
-                    saiu = true;
-                    break;
-                case "2":
-                    comerSanduiche();
-                    saiu = true;
-                    break;
-                default:
-                    break;
-            }
-        }
+        indoAPrefeitura();
     }
 
     private static void perguntarOqueHouve() {
         Utils.escrever(
-                "Chego próximo do Sr.George e o cumprimento, pergunto o que aconteceu e ele me diz que tinha acabado de ler minha carta, e que ficou muito triste pela minha recusa, pois eu era um dos únicos funcionários que ele confiava e que tinha tão grande potencial. Ele precisava de alguém de confiança para ocupar um importante cargo no brasil, e pediu para que eu reconsiderasse a oferta me dizendo que se eu aceitasse eu ganharia mais dinheiro do que eu poderia sonhar em ter.");
+                "Com um olhar de decepção Sr.George me cumprimentou, quando perguntei o que aconteceu ele me diz que acabara de ler minha carta, muito triste pela minha recusa, pediu para que caso reconsiderasse a oferta eu ganharia mais dinheiro do que eu poderia sonhar em ter.");
 
         boolean saiu = false;
 
@@ -214,17 +196,9 @@ public class CenaQuatro {
         }
     }
 
-    private static void comerSanduiche() {
-        Utils.escrever(
-                "Então eu fiz o que dava para fazer com o que eu tinha.... após comer, fui até minha estante e peguei um livro de xadrez que eu nunca havia terminado de ler por falta de tempo, e como eu estava querendo passar o tempo peguei-o para ler. Faltavam menos de 200 páginas, mas foi o suficiente para me manter entretido ate às 12:00, e então fui me arrumar parar sair.");
-
-        indoAPrefeitura();
-
-    }
-
     private static void indoAPrefeitura() {
         Utils.escrever(
-                "Por volta de 13:10 sai de casa e fui andando até a prefeitura que era perto de casa..... Chegando lá digo que estou pela vaga no jornal, então me levaram a uma sala onde tinham vários rapazes em carteiras como se fosse uma escola e logo pensei que provavelmente iríamos realizar uma prova. Por volta das 13:30 entra Alan na sala, mas antes que eu possa dizer algo ele vai a frente da sala e da boa tarde à todos e começa conversar com um oficial que estava lá.");
+                "Chegando na prefeitura digo que vim pelo desafio do jornal, então me levaram a uma sala onde tinham vários rapazes em carteiras como se fosse uma escola e logo pensei que provavelmente iríamos realizar uma prova. Por volta das 13:30 Alan entra na sala, antes que eu possa dizer algo ele vai a frente da sala, comprimenta a todos e começa conversar com um oficial");
 
         CenaCinco.initCenaCinco();
 
@@ -232,7 +206,7 @@ public class CenaQuatro {
 
     private static void reconsiderarOferta() {
         Utils.escrever(
-                "Penso novamente na oportunidade e me parece muito interessante, mesmo com aquele sentimento de que algo grande ia acontecer. E então pensei melhor na minha vida e na situação em que eu me encontrava.... Decido ir com Sr.George, ele me pede para que encontrasse ele no ponto de encontro combinado na carta.");
+                "Repenso em tamanha oportunidade me parece interessante, mesmo com aquele sentimento de que algo grande ia acontecer. E então pensei melhor na minha vida e na situação em que eu me encontrava.... Decido ir com Sr.George, ele me pede para que encontrasse ele no ponto de encontro combinado na carta.");
 
         aceitarOportunidade1();
 

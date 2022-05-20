@@ -3,6 +3,7 @@ package Cenas;
 import java.util.Scanner;
 import Utils.Utils;
 import Client.FimDeJogo;
+
 public class CenaTres {
 
     static Scanner sc = new Scanner(System.in);
@@ -10,14 +11,13 @@ public class CenaTres {
     public static void initCenaTres() {
         Utils.escrever("3°CENA");
         Utils.escrever(
-                "Após o sonho que eu nem chamaria de sonho e sim de flashback, nossa eu nem lembrava do que tinha acontecido aquele dia, mas bom tenho que fazer minhas coisas. Eu me levanto e vou fazer minha rotina matinal, escovo os dentes, tomo um banho, troco de roupa e vou a cozinha para tomar um café da manhã, porém quando chego na cozinha percebo que não tinha quase nada para comer, eu não havia feito compras essa semana pois o dinheiro estava curto. Percebo que tambem estou muito atrasado para o trabalho.");
-
+                "Acordo com o sol batendo na janela, depois de uma longa noite pensando em tudo que aconteceu, olho para o relógio....... A meu Deus estou atrasado!!!!");
         boolean saiu = false;
 
         while (!saiu) {
 
             Utils.escrever(
-                    "1 - Vou a padaria comer algo.\n2 - Vou correndo rapidamente ao trabalho.");
+                    "1 - Passo na padaria para comer algo.\n2 - Corro para o trabalho.");
 
             String decisao = sc.next();
 
@@ -38,14 +38,14 @@ public class CenaTres {
 
     private static void comprarJornal() {
         Utils.escrever(
-                "Após ir em direção a padaria vejo um garoto com alguns jornais com notas diárias da guerra e economia, e então comprei um para ler enquanto comia. Chegando a padaria eu peço o de sempre, ovos com bacon e um suco de laranja, após a garçonete levar meu pedido a cozinha eu começo a ler o jornal e me deparo com um anúncio sobre um emprego aonde dizia ``Se você conseguir resolver essas palavras cruzadas em menos de 10 minutos ligue para ..... para uma ótima oportunidade de emprego´´.");
+                "Atrasado sim, com fome nunca... a caminho da padaria, um garoto passa por mim com jornais, notas diárias da guerra,  economia... Comprei um para ler enquanto comia. Pedi o de sempre, ovos com bacon e um suco de laranja, quando derrepente algo me prende a atenção naquele jornal. Um anúncio sobre um emprego que dizia ``Cansado de seu emprego medíocre? Se você conseguir resolver essas palavras cruzadas em menos de 10 minutos achará a chave para o proximo passo.... uma grande oportunidade te espera do outro lado.´´.");
 
         boolean saiu = false;
 
         while (!saiu) {
 
             Utils.escrever(
-                    "1 - Decido fazer a cruzadinha\n2 - Ignoro e leio o jornal.");
+                    "1 - Fazer a cruzadinha\n2 - Ignorar e continuar a ler o jornal.");
 
             String decisao = sc.next();
 
@@ -66,7 +66,7 @@ public class CenaTres {
 
     private static void testeCruzadinha() {
         Utils.escrever(
-                "Então enquanto eu esperava minha comida eu fazia a cruzadinha..... em menos de 10 minutos já estava feito.....");
+                "Enquanto esperava minha comida, em menos de 10 minutos já estava feito. Um número de telefone em meio as palavras .....");
 
         boolean saiu = false;
 
@@ -94,7 +94,7 @@ public class CenaTres {
 
     private static void ligacaoTeste() {
         Utils.escrever(
-                "Como eu consegui realizar o feito de de fazer a cruzadinha em menos de 10 minutos e também já estava saturado de meu emprego eu decidi me entregar para oportunidade então liguei para o número.... Uma moça me atendeu e disse que ainda não poderia me passar muitas informações sobre a vaga e me disse que aquela já seria uma fase do processo, ela me fez várias perguntas pessoais, algumas perguntas de lógica e por fim meus dados pessoais para que possam entrar em contato e antes de desligar ela me disse que, se eu não recebesse nenhuma carta em 5 dias era para desconsiderar a ligação... Então sigo em direção ao trabalho, porém não estava com vontade alguma de ir, penso em acelerar um pouco o passo quando escuto o som de uma ambulância chegando cada vez mais perto e em questão de segundos ela passa em minha frente em uma velocidade extremamente rápida, talvez isso tenha sido  uma sinal par ir com calma. Então desisto da idéia de chegar a tempo no trabalho e vou andando com calma.....");
+                "Já não suportava mais meu emprego, porque não tentar algo novo? Liguei! no terceiro toque, uma voz seriamente fria diz: ´´Bom dia! Fez uma boa escolha, vamos começar.`` dentre perguntas logicas e pessoais que me fez, termina dizendo´´ Se em 5 dias não receber uma carta, não entre mais em contato");
 
         CenaQuatro.initCenaQuatro();
 
@@ -129,9 +129,10 @@ public class CenaTres {
     }
 
     private static void sairComPressa() {
-        Utils.escrever("Saio com pressa, vou correndo em direção ao outro lado da rua e como estava com muita pressa não olho para os lados. Sem prestar atenção no ambiente algo me chama atenção, um som muito estridente de uma ambulância vindo em minha direção e quando me dei conta do que estava acontecendo ..... já era tarde de mais para fujir");
-        Utils.escrever("Fim de jogo.");
+        Utils.escrever(
+                "Saio com pressa, corro para atravessar a rua, um som muito estridente de uma ambulância se aproxima em minha direção, quando me dei conta do que estava acontecendo ..... Era tarde de mais para fujir");
+        Utils.escrever("Descanse em paz, Game Over! \n\n");
 
-        FimDeJogo.creditosFimDeJogo();    
+        FimDeJogo.creditosFimDeJogo();
     }
 }

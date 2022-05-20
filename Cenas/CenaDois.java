@@ -11,15 +11,15 @@ public class CenaDois {
         Utils.escrever("2°CENA");
         Utils.escrever("Uma semana depois...");
         Utils.escrever(
-                "Após mais um dia de trabalho eu decido ir dormir... zzz... zzz... zzz... E percebo que estou sonhando com o dia em que conheci o Alan. Eu estava sentado no refeitório da escola junto com o meu primo Christopher e vejo um garoto separando os alimentos por cores... O Christopher então, decide ir ao patio, quando de repente 5 garotos jogam o prato de comida de Alan para cima e começam a zombar com ele.");
+                "Depois de um dia de trabalho,  descansando em minha cama me pego pensando no dia em que conheci o Alan. Eu estava sentado no refeitório da escola junto com o meu primo Christopher e vejo um garoto separando os alimentos por cores...  Christopher então, decide ir ao patio, quando de repente 5 garotos jogam o prato de comida de Alan para cima e começam a zombar dele.");
         Utils.escrever(
-                "Alan decide sair correndo para se livrar dos agressores");
+                "Alan sai correndo para se livrar dos valentões");
 
         boolean saiu = false;
 
         while (!saiu) {
 
-            Utils.escrever("1 - Corro atrás dos agressores para ajudar Alan\n2 - Não faço nada");
+            Utils.escrever("1 - Corro atrás dos garotos para ajudar Alan\n2 - Não faço nada");
 
             String decisao = sc.next();
 
@@ -40,7 +40,7 @@ public class CenaDois {
 
     private static void corroAtrasDosAgressores() {
         Utils.escrever(
-                "Eu persigo eles até pararem em uma sala e começarem a bater nele");
+                "Persigo eles até que param em uma sala e começam a bater nele");
         chamarChristopher();
     }
 
@@ -51,25 +51,19 @@ public class CenaDois {
     }
 
     private static void chamarChristopher() {
-        
-        boolean saiu = false;
 
-        while (!saiu) {
-            
-            Utils.escrever("1 - Chamar Christopher.");
+        Utils.escrever("1 - Chamar Christopher.");
 
-            String decisao = sc.next();
+        String decisao = sc.next();
 
-            switch (decisao) {
-                case "1":
-                    Utils.escrever(
-                            "O Christopher chega e bate nos agressores e salva Alan");
-                    Utils.escrever(
-                            "Percebo que acordo assustado com tudo que sonhei");
-                    saiu = true;
-                default:
-                    break;
-            }
+        switch (decisao) {
+            case "1":
+                Utils.escrever(
+                        "O Christopher chega e chuta os Valentões pra longe salvando Alan");
+                Utils.escrever(
+                        "Por um piscar de olhos volto daquele flashback e pego no sono..");
+            default:
+                break;
         }
         
 
