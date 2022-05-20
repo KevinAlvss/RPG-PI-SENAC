@@ -10,6 +10,19 @@ public class CenaUm {
 
     public static void initCenaUm() {
         Utils.escrever(
+                "Baseado em uma história real, 1951, Manchester, Inglaterra");
+        Utils.escrever( 
+                "Está prestando atenção? Que bom! Se não prestar bastante atenção perderá os detalhes, detalhes importantes." 
+                + "\nEu não vou parar, não vou me repetir e o senhor não vai me interromper. Acha que só porque está onde está e porque eu estou onde eu estou o senhor está no controle dos acontecimentos?"
+                + "\nO senhor está errado, eu estou no controle. Porque eu sei de coisas que o senhor não sabe."
+                + "\nO que eu quero do senhor agora é comprometimento. O senhor vai prestar atenção e não vai me julgar até o terminar."
+                + "\nSe não fosse dedicar a isso por favor saia daqui, mas se escolher ficar lembre-se de que foi uma escolha sua."
+                + "\nO que acontecer daqui para a frente não é de minha responsabilidade, é sua, preste atenção!");
+        Utils.escrever(
+                "Tudo o que fizer, cada decisão que tomar a partir de agora, abrirá portas para o futuro.");
+        Utils.escrever(
+                "Lembre-se disso enquanto estiver jogando, cada escolha afetará o seu destino.");
+        Utils.escrever(
                 "Eu sou apenas um jovem e o mundo já está em guerra, e não é uma guerra qualquer, é a segunda guerra mundial, todos os meus amigos foram para o campo de batalha, e eu aqui continuo trabalhando como matemático, sinto que a cada dia eu deixo de contribuir para o meu país, talvez eu tenha nascido na época errada, mas eu sei que através dos meus conhecimentos eu posso vencer essa guerra.... e essa é a minha história");
         Utils.escrever(
                 "Eu estou voltando para casa da padaria, de repente vejo policiais na frente da casa de um conhecido meu chamado Alan Turing, e vou lá ver");
