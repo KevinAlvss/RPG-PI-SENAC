@@ -54,22 +54,26 @@ public class CenaDois {
     }
 
     private static void chamarChristopher() {
+        boolean saiu = false;
 
-        Utils.escrever("1 - Chamar Christopher.");
+        while(!saiu){    
+            Utils.escrever("1 - Chamar Christopher.");
 
-        String decisao = sc.next();
+            String decisao = sc.next();
 
-        switch (decisao) {
-            case "1":
-                Utils.escrever(
-                        "O Christopher chega e chuta os Valentões pra longe salvando Alan");
-                Utils.escrever(
-                        "Por um piscar de olhos volto daquele flashback e pego no sono..");
-            default: 
-                    Opcoes.mensagemPadraoNaoReconhecido();
-                break;
-        }
-        
+            switch (decisao) {
+                case "1":
+                    Utils.escrever(
+                            "O Christopher chega e chuta os Valentões pra longe salvando Alan");
+                    Utils.escrever(
+                            "Por um piscar de olhos volto daquele flashback e pego no sono..");
+                    saiu = true;
+                    break;
+                default: 
+                        Opcoes.mensagemPadraoNaoReconhecido();
+                    break;
+            }
+        } 
 
         CenaTres.initCenaTres();
 
